@@ -3,7 +3,7 @@
 title: Your Name
 description: subtitle | affiliations | motto
 
-baseurl: / #name of GitHub repository
+baseurl: "" #name of GitHub repository
 url: "https://m-boualami.github.io" #custom url to be used instead of GitHub repository
 email: #
 
