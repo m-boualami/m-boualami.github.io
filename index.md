@@ -7,7 +7,7 @@ profile:
 published: true
 ---
 
-# <span style="font-size: 3.5rem; line-height: 1.2;">Data in practice. Management, Analysis, and Curation</span>
+# <span style="font-size: 3.5rem; line-height: 1.2;">Data in practice. Collection, Management and Analysis</span>
 
 Welcome.
 
