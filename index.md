@@ -7,6 +7,10 @@ profile:
 published: true
 ---
 
+# Data in practice. Management, Analysis, and Curation
+
+Welcome.
+
 I am a research engineer with hands-on experience managing large datasets throughout their entire life cycle, including data collection, cleaning, processing, analysis, and long-term maintenance. Much of my work centres on online data, where questions of quality, context and protection are especially important.
 
 Beyond the technical side, I also pay attention to how online data is produced in the first place. This involves looking at algorithms and the engineers who build them, the way platforms are designed, and the varied contexts and practices that shape how people behave online.
@@ -18,13 +22,13 @@ Drawing on this understanding, my work explores how online data can be used to e
 ### Highlighted professional experiences :
 
  2021-2025 : Research associate
-  : *Computational Social Science,  Deezer &  [RECORDS](https://records.huma-num.fr/en/home/){:target="_blank"}. (CNRS)*
+ > Computational Social Science |  Deezer &  [RECORDS](https://records.huma-num.fr/en/home/){:target="_blank"}. (CNRS)
 
 2024 : Lecturer (winter semester)
-  : *Kulturwissenschaft, Humboldt Universität*
+> Kulturwissenschaft | Humboldt Universität
 
 2020-2021 : GIS Analyst - FTTA
-  : *SADE Telecom Engineering Office*
+> SADE Telecom Engineering Office
 
 ***
 
@@ -32,18 +36,26 @@ Drawing on this understanding, my work explores how online data can be used to e
 
 Organiser at
 > 4th  Digital  Geographies  Conference  (session  chair)
+> 
 > 45th  SUNBELT Conference (session chair)
+> 
 > Computational Social Science CMB Seminar (board)
 
 Speaker at 
 > International  Geographical  Congress
+> 
 > Urban  Theory  Workshop
+> 
 > Modélisation  des  savoirs  seminar
+> 
 > Webinaire  MIXTAPES
+> 
 > CSS  Winter  Symposium
+> 
 > RECORDS Colloquium 
 
 Papers
 > Poetics [open-access](https://doi.org/10.1016/j.poetic.2025.102006){:target="_blank"}.
+> 
 > Laboratoire du Centre National de la Musique thematic collection (to be published)
 
