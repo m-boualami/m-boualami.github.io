@@ -11,8 +11,19 @@ I am a research engineer and data professional with experience across the full l
 
 Beyond the technical side, I also pay attention to how online data is produced in the first place. This involves looking at algorithms and the engineers who build them, the way platforms are designed, and the varied contexts and practices that shape how people behave online.
 
-Drawing on this understanding of data, my work explores how online data can be used to empirically investigate pressing questions about contemporary life. A geographer at heart, I examine how the growing digitisation of life is reshaping urban hierarchies and patterns of regional polarisation, using the music industry as a case study.
+Drawing on this understanding, my work explores how online data can be used to empirically investigate pressing questions about contemporary life. A geographer at heart, I examine how the growing digitisation of life is reshaping urban hierarchies and patterns of regional polarisation, using the music industry as a case study.
 
-### Also, check out:
+### Highlighted professional experiences :
+
+Research associate 2021 - 2025
+Computational Social Science | Deezer &  [RECORDS](https://records.huma-num.fr/en/home/){:target="_blank"}. (CNRS) 
+
+Lecturer (winter semester) 2024
+Kulturwissenschaft | Humboldt Universität
+
+GIS Analyst - FTTA 2020 - 2021
+SADE Telecom Engineering Office
+
+
 
 :)
