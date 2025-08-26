@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Project 4
-description: another project
+title: Using Mixed-Methods to Study Platformised Worlds
+description: The importance of contextualisation when looking at algorithms
 ---
 
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
