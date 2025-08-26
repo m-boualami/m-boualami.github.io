@@ -21,6 +21,8 @@ permalink: /cv/
 2019 : Research assistant
 > Digital Humanities |  Deezer &  [RECORDS](https://records.huma-num.fr/en/home/){:target="_blank"}. (CNRS)
 
+***
+
 ### Education :
 
 Master's degree in Geography - Spatial Analysis - Epistemology of Geography
