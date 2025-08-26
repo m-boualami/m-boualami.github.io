@@ -25,6 +25,7 @@ permalink: /cv/
 
 Master's degree in Geography - Spatial Analysis - Epistemology of Geography
 > Université Paris 1 Panthéon-Sorbonne
+
 Bachelor's degree in Geography - Urban Planning
 > Université Paris 8 Vincennes-Saint-Denis
 
@@ -33,24 +34,24 @@ Bachelor's degree in Geography - Urban Planning
 ### Contributions :
 
 Organiser at
-> 4th  Digital  Geographies  Conference  (session  chair)
+> 4th Digital Geographies Conference (session chair)
 > 
-> 45th  SUNBELT Conference (session chair)
+> 45th SUNBELT Conference (session chair)
 > 
-> Computational Social Science CMB Seminar (board)
+> Computational Social Science CMB Seminar (board)  
 
 Speaker at 
-> International  Geographical  Congress
+> 35th International Geographical Congress
 > 
-> Urban  Theory  Workshop
+> Urban Theory Workshop
 > 
-> Modélisation  des  savoirs  seminar
+> Knowledge Modelling seminar
 > 
-> Webinaire  MIXTAPES
+> Webinaire MIXTAPES
 > 
-> CSS  Winter  Symposium
+> CSS Winter Symposium
 > 
-> RECORDS Colloquium 
+> RECORDS Colloquium
 
 Papers
 > Poetics [open-access](https://doi.org/10.1016/j.poetic.2025.102006){:target="_blank"}.
