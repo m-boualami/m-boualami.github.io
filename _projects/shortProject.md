@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Data projects
 description: Exploring our digitalised world through large-scale web data
 ---
