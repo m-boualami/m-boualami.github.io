@@ -4,7 +4,7 @@ title: Data projects
 description: Exploring our digitalised world through large-scale web data
 ---
 
-# To win in a digitised world
+# To be successfull in a digitised world
 
 This project dives into the spatial hierarchies of rap music in France from a relational perspective, using an original dataset of consumption patterns of emerging artists on the music streaming platform Deezer. It examines the hypotheses of the “death of distance” and the “death of centrality,” showing the specific ways in which space continues to structure musical innovation and success, despite the dematerialisation and devaluation of traditional modes of music distribution.
 
