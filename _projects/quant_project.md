@@ -14,6 +14,6 @@ This project examines the musical boundaries that emerge from the distinct consu
 
 # Future project: artists mobility and success from ticket sale data
 
-RA project
+*writting in progress... come back later!*
 
 
