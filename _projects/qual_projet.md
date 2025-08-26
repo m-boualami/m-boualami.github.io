@@ -14,4 +14,4 @@ Finally, this work also nuances critiques of rationalisation through quantificat
 
 # The format of music. How the physicallity of music recordings shapes their geographical circulation
 
-XXX
+*writting in progress... come back later!*
