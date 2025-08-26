@@ -17,13 +17,13 @@ Drawing on this understanding, my work explores how online data can be used to e
 
 ### Highlighted professional experiences :
 
-Research associate 2021 - 2025
+ 2021-2025 : Research associate
   : *Computational Social Science,  Deezer &  [RECORDS](https://records.huma-num.fr/en/home/){:target="_blank"}. (CNRS)*
 
-Lecturer (winter semester) 2024
+2024 : Lecturer (winter semester)
   : *Kulturwissenschaft, Humboldt Universität*
 
-GIS Analyst - FTTA 2020 - 2021
+2020-2021 : GIS Analyst - FTTA
   : *SADE Telecom Engineering Office*
 
 ***
