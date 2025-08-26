@@ -15,16 +15,8 @@ Drawing on this understanding, my work explores how online data can be used to e
 
 ### Highlighted professional experiences :
 
-        Research associate 2021 - 2025
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-Research associate 2021 - 2025
-Computational Social Science | Deezer &  [RECORDS](https://records.huma-num.fr/en/home/){:target="_blank"}. (CNRS) 
+`Research associate 2021 - 2025
+Computational Social Science | Deezer &  [RECORDS](https://records.huma-num.fr/en/home/){:target="_blank"}. (CNRS)` 
 
 Lecturer (winter semester) 2024
 Kulturwissenschaft | Humboldt Universität
