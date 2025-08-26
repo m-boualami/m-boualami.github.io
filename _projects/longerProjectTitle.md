@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A longer Project Title
-description: short project description
+title: Investigating the death of distance hypothesis
+description: Death of distance of renewed centrality ?
 ---
 
 Example modified from [here](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html){:target="_blank"}.
