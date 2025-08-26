@@ -2,6 +2,7 @@
 layout: default
 title: CV
 description: Selected Personnal Experiences
+permalink: /cv/
 ---
 
 # My CV
