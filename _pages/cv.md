@@ -7,9 +7,9 @@ permalink: /cv/
 
 # Curriculum Vitae
 
-### Highlighted professional experiences :
+### Selected professional experiences :
 
- 2021-2025 : Research associate
+2021-2025 : Research associate
  > Computational Social Science |  Deezer &  [RECORDS](https://records.huma-num.fr/en/home/){:target="_blank"}. (CNRS)
 
 2024 : Lecturer (winter semester)
@@ -17,6 +17,16 @@ permalink: /cv/
 
 2020-2021 : GIS Analyst - FTTA
 > SADE Telecom Engineering Office
+
+2019 : Research assistant
+> Digital Humanities |  Deezer &  [RECORDS](https://records.huma-num.fr/en/home/){:target="_blank"}. (CNRS)
+
+### Education :
+
+Master's degree in Geography - Spatial Analysis - Epistemology of Geography
+> Université Paris 1 Panthéon-Sorbonne
+Bachelor's degree in Geography - Urban Planning
+> Université Paris 8 Vincennes-Saint-Denis
 
 ***
 
