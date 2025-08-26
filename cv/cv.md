@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: post
 title: CV
-permalink: /cv/
+description: another project
 ---
 
 # My CV
