@@ -47,11 +47,11 @@ collections:
     output: true
     permalink: /projects/:name/
     order:
-      - shortProject.md
+      - quant_project.md
       - qual_projet.md
-      - redirect.md
-      - project4.md
-      - project5.md
+      - cartography.md
+      - lecture.md
+      - personal_project.md
       - project6.md
 
 sass:
