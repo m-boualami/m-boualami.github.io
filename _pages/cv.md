@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: default
 title: CV
-description: another project
+description: Selected Personnal Experiences
 ---
 
 # My CV
