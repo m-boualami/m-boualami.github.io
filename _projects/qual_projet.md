@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Qualitative projects
 description: The importance of contextualisation of online assemblages and practices
 ---
