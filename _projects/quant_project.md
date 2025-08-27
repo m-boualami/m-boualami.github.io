@@ -11,7 +11,7 @@ This project dives into the spatial hierarchies of rap music in France from a re
 <p align="center">
   <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" 
     alt="Map of the concentration of successful artists in France"
-    width="500"/>
+    height="500"/>
 </p>
 
 [Open-access print (to be published in november 2025)](https://cnmlab.fr/publications/){:target="_blank"}
@@ -23,7 +23,7 @@ This project examines the musical boundaries that emerge from the distinct consu
 <p align="center">
   <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/heatmap.jpg" 
     alt="Heatmap showcasing different subgenre preferences based on age and gender"
-    width="500"/>
+    height="500"/>
 </p>
 
 [Open-access print](https://www.sciencedirect.com/science/article/pii/S0304422X25000361){:target="_blank"}
