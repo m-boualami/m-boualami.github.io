@@ -9,8 +9,8 @@ description: Exploring our digitalised world through large-scale web data
 This project dives into the spatial hierarchies of rap music in France from a relational perspective, using an original dataset of consumption patterns of emerging artists on the music streaming platform Deezer. It examines the hypotheses of the “death of distance” and the “death of centrality,” showing the specific ways in which space continues to structure musical innovation and success, despite the dematerialisation and devaluation of traditional modes of music distribution.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/collab_paper.png" 
-    alt="Typology of artist success"
+  <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" 
+    alt="Map of the concentration of successful artists in France"
     width="500"/>
 </p>
 
