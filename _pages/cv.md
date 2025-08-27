@@ -12,7 +12,7 @@ permalink: /cv/
 2021-2025 : Research associate
  > Computational Social Science |  Deezer &  [RECORDS](https://records.huma-num.fr/en/home/){:target="_blank"}. (CNRS)
 
-2024 : Lecturer (winter semester)
+2024 : Lecturer 
 > Kulturwissenschaft | Humboldt Universität
 
 2020-2021 : GIS Analyst - FTTA
@@ -25,11 +25,11 @@ permalink: /cv/
 
 ### Education :
 
-Master's degree in Geography - Spatial Analysis - Epistemology of Geography
-> Université Paris 1 Panthéon-Sorbonne
+Master's degree in Geography
+> Geoinformatics - Epistemology of Geography | Université Paris 1 Panthéon-Sorbonne
 
-Bachelor's degree in Geography - Urban Planning
-> Université Paris 8 Vincennes-Saint-Denis
+Bachelor's degree in Geography
+> Environment and Urban Planning | Université Paris 8 Vincennes-Saint-Denis
 
 ***
 
