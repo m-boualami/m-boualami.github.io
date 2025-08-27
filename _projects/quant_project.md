@@ -13,7 +13,7 @@ This project takes the “death of distance” hypothesis and applies it to musi
 <p align="center">
   <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" 
     alt="Map of the concentration of successful artists in France"
-    height="500"/>
+    height="400"/>
 </p>
 
 [Open-access print (to be published in november 2025)](https://cnmlab.fr/publications/){:target="_blank"}
