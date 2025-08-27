@@ -12,6 +12,8 @@ This project aimed to address that gap. Using a method we coined “triangulatio
 
 Finally, the project highlights how platform engineers critically assess the platform, its requirements, and its operations. It invites researchers working on platform topics to engage with these professionals, who often come from academia themselves and bring a genuine passion for their industry.
 
+https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/algo_genre.png
+
 # The format of music. How the physicallity of music recordings shapes their geographical circulation
 
 *writting in progress... come back later!*
