@@ -8,7 +8,7 @@ description: Using Digital Methods to Explore the Geographies of Berlin’s Live
 
 In this course, I guide students through an engaging exploration of how digital platforms are transforming Berlin's live music landscape. Using Resident Advisor, a key event-promotion app, as our case study, we delve into the geographies of the city's electronic music industry and analyse the influence of these platforms on the local music economy.
 
-## Introducing Research Data Management. Understanding GDPR and personal data protection when disseminating 
+### Introducing Research Data Management. Understanding GDPR and personal data protection when disseminating 
 
 In this lecture and workshop, students engage with one of the key challenges in research: responsible handling of personal data.
 
@@ -20,10 +20,11 @@ Complete anonymisation removes all direct and indirect identifiers, making it im
 
 In the workshop, students choose an anonymisation approach, implement it on the dataset, and discuss how each choice affects data utility, research reproducibility, and ethical compliance to GDPR. Through this exercise, students gain hands-on experience that encourages them to be mindful of data protection in their future research, while developing a critical and reflexive understanding of GDPR guidelines and ethical practices.
 
-## R Workshop
+### R Workshop
 
 Google Collab link
 
-## Poster presentation. Student selected works
+### Poster presentation. Student selected works
 
+*work in progress... come back later!*
 
