@@ -15,7 +15,7 @@ This project examines the musical boundaries that emerge from the distinct consu
 <p align="center">
   <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/heatmap.jpg" 
     alt="Heatmap showcasing different subgenre preferences based on age and gender"
-    width="400"/>
+    width="500"/>
 </p>
 
 # Future project: artists mobility and success from ticket sale data
