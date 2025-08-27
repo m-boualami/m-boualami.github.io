@@ -10,7 +10,7 @@ In this course, I guide students through an engaging exploration of how digital 
 
 ### Introducing Research Data Management. Understanding GDPR and personal data protection when disseminating 
 
-In this lecture and workshop, students engage with one of the key challenges in research: responsible handling of personal data.
+In the workshop's first steps, students engage with one of the key challenges in research: responsible handling of personal data.
 
 For academics and research professionals, one key challenge with personal data concerns dissemination. Reproducibility is central to scientific rigor: other researchers must be able to reproduce experiments on the same datasets to validate results and claims. Beyond the question of validation, there is a growing issue of access to empirical data. The increasing privatisation of online spaces by major corporations such as Meta or X, coupled with restricted APIs, has made many datasets inaccessible to researchers studying online dynamics. Only a limited group, often those working within public-private partnerships like my team, can obtain these data. Ensuring equitable access and responsible dissemination of such proprietary datasets is therefore crucial. It allows researchers outside these partnerships to engage in independent research, contributing to a fairer and more open scientific landscape while mitigating corporate influence.
 
