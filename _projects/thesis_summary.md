@@ -22,6 +22,8 @@ Entretien Manuel, la traduction algorithmique
 La circulation des biens musicaux au format streaming -> localiser un monde
 préparer l'accroche pour la 'mort de la distance' -> si la plateforme localise un monde, la distance n'a plus d'importance ?
 
+ici rapide analyse de donnée sur la méta-donnée de genre
+
 # Chapitre 4 : Collaboration
 
 L'hypothèse de la mort de la distance appliquée au cas du rap
