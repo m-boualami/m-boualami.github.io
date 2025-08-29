@@ -2,6 +2,7 @@
 layout: default
 title: Plan de thèse
 description: à l'été 2025
+published: false
 ---
 
 # Chapitre 1 : La musique enregistrée, une histoire d'espace
