@@ -20,8 +20,9 @@ This project is one of the first to empirically investigate, at a very fine-grai
     height="400"/>
 </p>
 <p align="center">
-  <em>Reader's note: hot-spots and cold-spots of successful rap artists in France</em>
+  <em>reader's note: hot-spots and cold-spots of successful rap artists in France</em>
 </p>
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/collab_prox.png" 
