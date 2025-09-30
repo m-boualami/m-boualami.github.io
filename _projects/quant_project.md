@@ -19,14 +19,18 @@ This project is one of the first to empirically investigate, at a very fine-grai
     alt="Map of the concentration of successful artists in France"
     height="400"/>
 </p>
-*reader's note : hot-spots and cold-spots of successful rap artists in France*
+<p align="center">
+  <em>Reader's note: hot-spots and cold-spots of successful rap artists in France</em>
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/collab_prox.png" 
     alt="Map of the concentration of successful artists in France"
     height="300"/>
 </p>
-*reader's note : relation between local social network and type of long-term success (1=local social network)*
+<p align="center">
+  <em>reader's note : relation between localness of social network and type of long-term success</em>
+</p>
 
 [Open-access print (to be published in november 2025)](https://cnmlab.fr/publications/){:target="_blank"}
 
