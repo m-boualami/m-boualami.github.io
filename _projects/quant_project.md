@@ -25,6 +25,8 @@ Moreover, we examined how artists’ embeddedness in their regional scene (i.e, 
 <a href="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" target="_blank">
   <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" width="100"/>
 </a>
+  *reader's note : relation between xx*
+  *click to expand*
 </p>
 
 <p align="center">
