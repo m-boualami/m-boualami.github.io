@@ -42,6 +42,13 @@ The curation of artists, whether on the radio, television, in magazines, or reco
 This project investigates this question by identifying the thematic boundaries that structure music consumption among rap listeners on Deezer. We find that it is not traditional genre labels, but rather broader “themes,” that guide how audiences engage with music. By constructing seven clusters of artists and interpreting their meaning through topic modelling of song lyrics, we revealed distinct patterns of audience preference. When comparing across age and gender, we uncovered a striking fact: while women of all ages share similar preferences, and older men likewise cluster together, younger men (aged 13 to 24) align more closely with women’s preferences than with those of older men. This generational divide in highly individualised, personalised music consumption reflects broader debates about “generational wars”, where age has become one of the sharpest lines of division in contemporary democracies.
 
 <p align="center">
+  <a href="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" target="_blank">
+    <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" width="200"/>
+  </a>
+</p>
+
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/heatmap.jpg" 
     alt="Heatmap showcasing different subgenre preferences based on age and gender"
     height="500"/>
