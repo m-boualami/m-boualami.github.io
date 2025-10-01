@@ -7,7 +7,7 @@ profile:
 published: true
 ---
 
-# <span style="font-size: 3.5rem; line-height: 1.2;">(Geo)data in practice. Collection, Management and Analysis</span>
+# <span style="font-size: 2rem; line-height: 1.2;">(Geo)data in practice. Collection, Management and Analysis</span>
 
 Welcome.
 
