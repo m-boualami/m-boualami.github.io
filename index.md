@@ -7,7 +7,8 @@ profile:
 published: true
 ---
 
-# (Geo)data in practice. Collection, Management and Analysis
+# (Geo)data in practice.
+# Collection, Management and Analysis
 
 Welcome.
 
