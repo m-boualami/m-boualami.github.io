@@ -11,10 +11,14 @@ With the rise of digital platforms, the barriers to publishing music have never 
 This project takes the “death of distance” hypothesis and applies it to music, asking whether digitisation has truly dissolved spatial hierarchies. We uncover an intriguing contradiction : a simultaneous process of **centralisation and decentralisation** in music scenes. The Paris region, the French music industry's historic hub, remains more influential than ever. At the same time, rural regions that historically struggled to produce notable acts are now finally generating successful artists, often at levels proportional to their population. This emergence of talent from previously underrepresented areas highlights a **new geographical diversification of success** in the French music scene. The main losers of this dual movement are intermediate scenes, large cities outside Paris that historically competed with the capital and now struggle to achieve the same level of success. 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" 
-    alt="Map of the concentration of successful artists in France"
-    height="100"/>
+<a href="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" target="_blank">
+  <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" width="300"/>
+</a>
 </p>
+<p align="center">
+  <em>click to expand</em>
+</p>
+
 <p align="center">
   <em>reader's note: hot-spots and cold-spots of successful rap artists in France</em>
 </p>
@@ -23,7 +27,7 @@ Moreover, we examined how artists’ embeddedness in their regional scene (i.e, 
 
 <p align="center">
 <a href="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/collab_prox.png" target="_blank">
-  <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/collab_prox.png" width="200"/>
+  <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/collab_prox.png" width="300"/>
 </a>
 </p>
 <p align="center">
@@ -31,7 +35,7 @@ Moreover, we examined how artists’ embeddedness in their regional scene (i.e, 
 </p>
 
 <p align="center">
-  <em>reader's note : relation between localness of social network and type of long-term success</em>
+  <em>reader's note : relation between localness of social network and type of long-term success (1=local)</em>
 </p>
 
 This project is one of the first to empirically investigate, at a very fine-grained level, the “death of distance” hypothesis in France, bringing together two seemingly opposing perspectives that, as the results show, are not actually contradictory.
@@ -45,11 +49,17 @@ The curation of artists, whether on the radio, television, in magazines, or reco
 This project explores how rap audiences structure their music consumption on Deezer. Rather than following traditional genre labels, listeners appear to organise their engagement around broader themes. We identified seven thematic clusters of artists using dimension reduction and topic modelling of song lyrics to understand each cluster. Then, by applying a predictive model on audience preferences across these clusters, we examined how age and gender relate to listening habits. The results revealed a striking pattern : women of all ages share similar preferences, and older men tend to cluster together. Yet younger men (aged 12–24) align more closely with women’s preferences than with those of older men. This generational divide in highly personalised music consumption echoes broader societal debates about “generational wars”, where age has become one of the sharpest lines of division in contemporary democracies. 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/heatmap.jpg" 
-    alt="Heatmap showcasing different subgenre preferences based on age and gender"
-    height="500"/>
+<a href="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/heatmap.png" target="_blank">
+  <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/heatmap.png" width="300"/>
+</a>
 </p>
-*reader’s note : audience music preferences by age-gender group and artist thematic clusters (MLR model)*
+<p align="center">
+  <em>click to expand</em>
+</p>
+
+<p align="center">
+  <em>reader's note: audience music preferences by age-gender group and artist thematic clusters (MLR model)</em>
+</p>
 
 [Open-access print](https://www.sciencedirect.com/science/article/pii/S0304422X25000361){:target="_blank"}
 
