@@ -20,7 +20,7 @@ This project takes the “death of distance” hypothesis and applies it to musi
 </p>
 
 <p align="center">
-  <em>reader's note: hot-spots and cold-spots of successful rap artists in France</em>
+  <em>reader's note : hot-spots and cold-spots of successful rap artists in France</em>
 </p>
 
 Moreover, we examined how artists’ embeddedness in their regional scene (i.e, the degree to which their social network is locally concentrated) relates to the longevity of their success. We found that artists in the Paris region tend to exhibit a high degree of localness, whereas most other regions show little to none. The main exception is the Provence-Alpes-Côte d'Azur region, historically France’s second rap hub : artists with highly local networks were more likely to lose their audience, while those whose networks were oriented toward Paris tended to continue growing. This suggests that, even with the geographical decentralization of success, **connections to Paris remain crucial**.
@@ -58,7 +58,7 @@ This project explores how rap audiences structure their music consumption on Dee
 </p>
 
 <p align="center">
-  <em>reader's note: audience music preferences by age-gender group and artist thematic clusters (MLR model)</em>
+  <em>reader's note : audience music preferences by age-gender group and artist thematic clusters (MLR model)</em>
 </p>
 
 [Open-access print](https://www.sciencedirect.com/science/article/pii/S0304422X25000361){:target="_blank"}
