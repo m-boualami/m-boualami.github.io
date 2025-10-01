@@ -37,23 +37,16 @@ This project is one of the first to empirically investigate, at a very fine-grai
 
 # Subgenres from the ground-up thematic analysis
 
-The curation of artists, whether on the radio, television, in magazines, or record stores, has historically followed the logic of genre, grouping musicians into categories defined by intermediaries. This top-down dominance of genre categories meant that audiences consumed music in a highly segregated way, a pattern sociologists have consistently observed over the past forty years. Today, however, digital platforms promise a world of personalised media consumption, supposedly free from the gatekeeping of traditional intermediaries and their genre-based logics of curation. Has this shift diminished the importance of genre in shaping musical tastes and preferences?
+The curation of artists, whether on the radio, television, in magazines, or record stores, has historically followed the logic of genre, grouping musicians into categories defined by intermediaries. This top-down dominance of genre categories meant that audiences consumed music in a highly segregated way, a pattern sociologists have consistently observed over the past forty years. Today, however, digital platforms promise a world of personalised media consumption, supposedly free from the gatekeeping of traditional intermediaries and their genre-based logics of curation. Has this shift diminished the importance of genre in shaping musical tastes and preferences ?
 
-This project investigates this question by identifying the thematic boundaries that structure music consumption among rap listeners on Deezer. We find that it is not traditional genre labels, but rather broader “themes,” that guide how audiences engage with music. By constructing seven clusters of artists and interpreting their meaning through topic modelling of song lyrics, we revealed distinct patterns of audience preference. When comparing across age and gender, we uncovered a striking fact: while women of all ages share similar preferences, and older men likewise cluster together, younger men (aged 13 to 24) align more closely with women’s preferences than with those of older men. This generational divide in highly individualised, personalised music consumption reflects broader debates about “generational wars”, where age has become one of the sharpest lines of division in contemporary democracies.
-
-<p align="center">
-  <a href="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" target="_blank">
-    <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" width="200"/>
-  </a>
-</p>
-
+This project explores how rap audiences structure their music consumption on Deezer. Rather than following traditional genre labels, listeners appear to organise their engagement around broader themes. We identified seven thematic clusters of artists using dimension reduction and topic modelling of song lyrics to understand each cluster. Then, by applying a predictive model on audience preferences across these clusters, we examined how age and gender relate to listening habits. The results revealed a striking pattern : women of all ages share similar preferences, and older men tend to cluster together. Yet younger men (aged 12–24) align more closely with women’s preferences than with those of older men. This generational divide in highly personalised music consumption echoes broader societal debates about “generational wars”, where age has become one of the sharpest lines of division in contemporary democracies. 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/heatmap.jpg" 
     alt="Heatmap showcasing different subgenre preferences based on age and gender"
     height="500"/>
 </p>
-*reader’s note : audience music preferences by age-gender group and artist thematic clusters*
+*reader’s note : audience music preferences by age-gender group and artist thematic clusters (MLR model)*
 
 [Open-access print](https://www.sciencedirect.com/science/article/pii/S0304422X25000361){:target="_blank"}
 
