@@ -22,24 +22,17 @@ This project takes the “death of distance” hypothesis and applies it to musi
 Moreover, we examined how artists’ embeddedness in their regional scene (i.e, the degree to which their social network is locally concentrated) relates to the longevity of their success. We found that artists in the Paris region tend to exhibit a high degree of localness, whereas most other regions show little to none. The main exception is the Provence-Alpes-Côte d'Azur region, historically France’s second rap hub : artists with highly local networks were more likely to lose their audience, while those whose networks were oriented toward Paris tended to continue growing. This suggests that, even with the geographical decentralization of success, **connections to Paris remain crucial**.
 
 <p align="center">
-<a href="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" target="_blank">
-  <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/carto.png" width="100"/>
+<a href="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/collab_prox.png" target="_blank">
+  <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/collab_prox.png" width="150"/>
 </a>
-  *click to expand*
 </p>
 <p align="center">
-  <em>reader's note : relation between localness of social network and type of long-term success</em>
+  <em>click to expand</em>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/m-boualami/m-boualami.github.io/refs/heads/master/assets/images/collab_prox.png" 
-    alt="Distribution of localness per type of long-term success"
-    height="100"/>
-</p>
-<p align="center">
   <em>reader's note : relation between localness of social network and type of long-term success</em>
 </p>
-
 
 This project is one of the first to empirically investigate, at a very fine-grained level, the “death of distance” hypothesis in France, bringing together two seemingly opposing perspectives that, as the results show, are not actually contradictory.
 
