@@ -18,6 +18,6 @@ On the one hand, my [quantitative analysis of user behavior data](https://m-boua
 
 On the other hand, I conducted [qualitative projects](https://m-boualami.github.io/projects/qual-projet/){:target="_blank"} to examine a central paradox of the platformised economy: its need for state-backed legal structures to secure data value, alongside their strategic evasion of state oversight to maximize data mobility.
 
-At its heart, my work is about translation : turning data into insight, and research into strategy for both boardrooms and la brooms.
+At its heart, my work is about translation : turning data into insight, and research into strategy for both boardrooms and lab rooms.
 
 
