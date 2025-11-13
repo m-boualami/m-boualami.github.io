@@ -6,7 +6,7 @@ description: Exploring our digitalised world through large-scale web data
 
 # To be successfull in a digitised world
 
-_This research was translated into a [roundtable](https://www.lestrans.com/musiques-et-societes/#/detail/rap-et-territoires){:target="_blank"}_, fostering a dialogue between diverse industry stakeholders and providing a data-driven framework to address sector-wide challenges._
+_This research was translated into a [roundtable](https://www.lestrans.com/musiques-et-societes/#/detail/rap-et-territoires){:target="_blank"}, fostering a dialogue between diverse industry stakeholders and providing a data-driven framework to address sector-wide challenges._
 
 With the rise of digital platforms, the barriers to publishing music have never been lower, and in principle, the path to success has been democratised: any artist can share their work online, and any listener, anywhere, can discover it. Yet the music industry has long been structured by gatekeeping, where success depended on being in the right place and knowing the right people. Has digitisation truly dissolved these barriers, or do geography and social ties still matter? 
 
