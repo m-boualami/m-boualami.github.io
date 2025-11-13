@@ -39,6 +39,8 @@ Organiser at
 > 4th Digital Geographies Conference (session chair)
 > 
 > 45th SUNBELT Conference (session chair)
+>
+> Les Transmusicales - Industry panel (panel chair)
 > 
 > Computational Social Science CMB Seminar (board)  
 
