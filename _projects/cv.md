@@ -5,8 +5,6 @@ permalink: /projects/cv/
 layout: post
 ---
 
-### Selected professional experiences :
-
 2021-2025 : Research associate
  > Computational Social Science •  Deezer &  [RECORDS](https://records.huma-num.fr/en/home/){:target="_blank"}. (CNRS)
 
