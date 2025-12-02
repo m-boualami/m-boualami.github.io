@@ -9,6 +9,25 @@ tags: [Deezer, music, online consumption, large scale data analysis, France, urb
 ---
  > With the rise of digital platforms, the barriers to publishing music have never been lower, and in principle, the path to success has been democratised: any artist can share their work online, and any listener, anywhere, can discover it. Yet the music industry has long been structured by gatekeeping, where success depended on being in the right place and knowing the right people. Has digitisation truly dissolved these barriers, or do geography and social ties still matter? 
 
+<div class="tab-container">
+  <input type="radio" id="tab1" name="tabs" checked>
+  <input type="radio" id="tab2" name="tabs">
+
+  <div class="tabs">
+    <label for="tab1" class="tab-label">Tab 1</label>
+    <label for="tab2" class="tab-label">Tab 2</label>
+  </div>
+
+  <div class="content">
+    <div id="content1" class="tab-content">
+      <p>Contenu du premier onglet.</p>
+    </div>
+    <div id="content2" class="tab-content">
+      <p>Contenu du second onglet.</p>
+    </div>
+  </div>
+</div>
+
 This project takes the “death of distance” hypothesis and applies it to music, asking whether digitisation has truly dissolved spatial hierarchies. We uncover an intriguing contradiction : a simultaneous process of **centralisation and decentralisation** in music scenes. The Paris region, the French music industry's historic hub, remains more influential than ever. At the same time, rural regions that historically struggled to produce notable acts are now finally generating successful artists, often at levels proportional to their population. This emergence of talent from previously underrepresented areas highlights a **new geographical diversification of success** in the French music scene. The main losers of this dual movement are intermediate scenes, large cities outside Paris that historically competed with the capital and now struggle to achieve the same level of success. 
 
 <p align="center">
