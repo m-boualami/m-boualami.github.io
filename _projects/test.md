@@ -5,7 +5,7 @@ title : "Test n°1"
 tagline: "To be successfull in a digitised world"
 description: "This research was translated into a roundtable, fostering a dialogue between diverse industry stakeholders and providing a data-driven framework to address sector-wide challenges."
 permalink: /projects/test/
-tags: [Deezer, music, online consumption, large scale data analysis, France, urban hierarchies]
+tags: [streaming platform, urban hierarchies, big data analysis]
 ---
  > With the rise of digital platforms, the barriers to publishing music have never been lower, and in principle, the path to success has been democratised: any artist can share their work online, and any listener, anywhere, can discover it. Yet the music industry has long been structured by gatekeeping, where success depended on being in the right place and knowing the right people. Has digitisation truly dissolved these barriers, or do geography and social ties still matter? 
 
