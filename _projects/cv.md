@@ -1,11 +1,9 @@
 ---
-title: "CV"
-description: Selected Personnal Experiences
+title: "cv"
+tagline: "Selected Personnal Experiences"
 permalink: /projects/cv/
 layout: post
 ---
-
-# Curriculum Vitae
 
 ### Selected professional experiences :
 
