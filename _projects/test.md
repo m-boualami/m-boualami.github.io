@@ -2,7 +2,7 @@
 layout: post
 author: Myriam Boualami
 title : "Test n°1"
-permalink: /projects/test_1/
+permalink: /projects/test/
 tags: [trial, fool]
 ---
 
