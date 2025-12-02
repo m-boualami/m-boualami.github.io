@@ -1,23 +1,26 @@
-title: Moonwalk
-author: Abhinav Saxena
+title: Myriam Boualami
+author: Myriam Boualami
 baseurl: "" #name of GitHub repository
 url: "https://m-boualami.github.io" #custom url to be used instead of GitHub repository
-description: > # description of the site (multiple lines allowed)
-  Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
+description: description: | # description of the site (multiple lines allowed)
+  <p>Welcome!</p>
+  <p>I am a mixed-methods researcher working at the intersection of data science and economic geography.</p>
+  <p>Most of my work focuses on the platformisation and datafication of the economy, and is grounded in collaborative projects with the tech industry, such as the streaming-giant Deezer. 
+  I have shared my results and recommendations in diverse avenues, from academic conferences to industry panels.</p>
 
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
 
 twitter:
-    username: abhinav # update or delete this
+    username: # update or delete this
     card: summary_large_image
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 remote_theme: abhinavs/moonwalk
 
 theme_config:
-  appearance: "dark" # can be "light", "dark" or "auto"
+  appearance: "light" # can be "light", "dark" or "auto" CHANGE
   appearance_toggle: true # if appearance can be switched by user
   back_home_text: "home.." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
@@ -28,7 +31,7 @@ theme_config:
   # following keys are using to create home layout
   show_projects: true # show projects as cards, add in _data/home.yml
   show_blog: true # show blog posts added in _posts
-  show_old_projects: true # show old projects as cards, add in _data/home.yml
+  show_old_projects: false # CHANGE
   show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
   show_reading_time: true # show number of words and reading time in the blog posts
   show_tags: true # show tags in a blog posts
