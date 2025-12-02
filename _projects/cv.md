@@ -60,4 +60,4 @@ Speaker at
 Papers
 > Poetics [open-access](https://doi.org/10.1016/j.poetic.2025.102006){:target="_blank"}.
 > 
-> Laboratoire du Centre National de la Musique thematic collection (to be published)
+> Laboratoire du Centre National de la Musique thematic collection [open-access](https://cnmlab.fr/recueil/musique-et-territoires/chapitre/12/){:target="_blank"}.
