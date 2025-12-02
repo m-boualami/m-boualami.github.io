@@ -1,5 +1,6 @@
 title: "Myriam Boualami"
-description: "geospatial Data Analytics | Program Coordination"
+# Sous-titre court pour l'en-tête
+tagline: "geospatial Data Analytics | Program Coordination"
 author: Myriam Boualami
 baseurl: "" #name of GitHub repository
 url: "https://m-boualami.github.io" #custom url to be used instead of GitHub repository
@@ -28,7 +29,7 @@ defaults:
 favicon: "./logo.png" # relative path to site's favicon
 
 twitter:
-    username: # update or delete this
+    username: "" # update or delete this
     card: summary_large_image
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
