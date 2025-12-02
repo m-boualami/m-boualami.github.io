@@ -5,8 +5,8 @@ navbar_entries:
   - title: blog
     url: blog
 
-  - title: website
-    url: https://www.abhinav.co
+  - title: cv
+    url: "https://m-boualami.github.io/projects/cv/"
 
 project_entries:
   - title: Test
