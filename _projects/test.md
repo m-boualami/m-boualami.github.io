@@ -19,10 +19,10 @@ tags: [streaming platform, urban hierarchies, big data analysis]
 
 <div class="content">
   <div id="content1" class="tab-content">
-    <p>Voici le contenu du premier onglet. Vous pouvez y mettre du texte, des images ou tout autre élément HTML.</p>
+    <p>Contenu du premier onglet.</p>
   </div>
   <div id="content2" class="tab-content">
-    <p>Voici le contenu du second onglet. Tout est indépendant du premier onglet.</p>
+    <p>Contenu du second onglet.</p>
   </div>
 </div>
 
