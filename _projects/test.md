@@ -2,13 +2,10 @@
 layout: post
 author: Myriam Boualami
 title : "Test n°1"
+tagline: "To be successfull in a digitised world"
 permalink: /projects/test/
-tags: [trial, fool]
+tags: [Deezer, music, online consumption, large scale data analysis, France, urban hierarchies]
 ---
-
-# TEST 1
-
-# To be successfull in a digitised world
 
 *This research was translated into a [roundtable](https://www.lestrans.com/musiques-et-societes/#/detail/rap-et-territoires){:target="_blank"}, fostering a dialogue between diverse industry stakeholders and providing a data-driven framework to address sector-wide challenges.*
 
