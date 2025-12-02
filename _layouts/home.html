@@ -9,7 +9,18 @@ layout: default
 {% endif %}
 
   <h1>{{ site.title }}</h1>
-  <h2 class="tagline">{{ site.tagline }}</h2>
+  <h1>{{ site.title }}</h1>
+<h2 class="tagline" style="
+  font-size: 1.8rem;
+  font-weight: 350;
+  opacity: 0.85;
+  margin: 0.5rem 0 2rem 0;
+  text-align: center;
+  letter-spacing: 0.3px;
+  line-height: 1.4;
+">
+  {{ site.tagline }}
+</h2>
   {% if site.theme_config.show_description == true %}
     <div class="description">{{ site.description }}</div>
   {% endif %}
