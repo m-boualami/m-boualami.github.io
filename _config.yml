@@ -10,6 +10,20 @@ description: | # description of the site (multiple lines allowed)
 
 permalink: /:slug
 
+# Collections pour les projets
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/      # Surcharge le permalink global
+    
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "post"
+# fin de la modif
+
 favicon: "./logo.png" # relative path to site's favicon
 
 twitter:
