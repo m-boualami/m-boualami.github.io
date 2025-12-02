@@ -2,7 +2,7 @@ title: Myriam Boualami
 author: Myriam Boualami
 baseurl: "" #name of GitHub repository
 url: "https://m-boualami.github.io" #custom url to be used instead of GitHub repository
-description: description: | # description of the site (multiple lines allowed)
+description: | # description of the site (multiple lines allowed)
   <p>Welcome!</p>
   <p>I am a mixed-methods researcher working at the intersection of data science and economic geography.</p>
   <p>Most of my work focuses on the platformisation and datafication of the economy, and is grounded in collaborative projects with the tech industry, such as the streaming-giant Deezer. 
