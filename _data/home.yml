@@ -13,9 +13,9 @@ project_entries:
     url: "https://m-boualami.github.io/projects/test/"
     desc: "Trial run!"
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: "A semantic cartography of rap music"
+    url: "https://m-boualami.github.io/projects/semantic-rap-cartography/"
+    desc: "exploring the death of genres on Deezer"
 
   - title: Project 3
     url: overview-post
