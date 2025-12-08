@@ -6,49 +6,6 @@ permalink: /projects/test/
 tags: [streaming platform, urban hierarchies, big data analysis]
 ---
 
-<style>
-.tabs {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.tab-button {
-  cursor: pointer;
-  padding: 0.3rem 1rem;       /* espace autour du texte */
-  border: 1px solid #ccc;
-  border-radius: 6px;         /* coins arrondis */
-  background: #f5f5f5;
-  user-select: none;
-  transition: background 0.2s, transform 0.1s;
-}
-
-.tab-button:hover {
-  background: #e8e8e8;
-  transform: translateY(-1px); /* léger effet visuel au survol */
-}
-
-.tab-button.active {
-  background: #ddd;
-  border-color: #999;
-  font-weight: bold;
-}
-
-.tab-content {
-  display: none;              /* masqué par défaut */
-  padding: 1rem 1.5rem;       /* haut/bas = 1rem, gauche/droite = 1.5rem */
-  border: 1px solid #ccc;     /* ajoute un cadre autour du contenu */
-  border-radius: 8px;         /* coins arrondis du cadre */
-  background: #f9f9f9;        /* couleur de fond optionnelle */
-  margin-top: 0.5rem;         /* espace au-dessus du contenu pour séparer des onglets */
-}
-
-.tab-content.active {
-  display: block;             /* affichage de l’onglet actif */
-}
-</style>
-
-
 ## Geography of innovation
 
 *This research was translated into a roundtable, fostering a dialogue between diverse industry stakeholders and providing a data-driven framework to address sector-wide challenges.*
