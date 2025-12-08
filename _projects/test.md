@@ -38,7 +38,11 @@ tags: [streaming platform, urban hierarchies, big data analysis]
 
 .tab-content {
   display: none;              /* masqué par défaut */
-  padding: 0.5rem 0;          /* espace interne pour le contenu */
+  padding: 1rem 1.5rem;       /* haut/bas = 1rem, gauche/droite = 1.5rem */
+  border: 1px solid #ccc;     /* ajoute un cadre autour du contenu */
+  border-radius: 8px;         /* coins arrondis du cadre */
+  background: #f9f9f9;        /* couleur de fond optionnelle */
+  margin-top: 0.5rem;         /* espace au-dessus du contenu pour séparer des onglets */
 }
 
 .tab-content.active {
