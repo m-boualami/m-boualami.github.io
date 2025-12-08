@@ -46,9 +46,9 @@ tags: [streaming platform, urban hierarchies, big data analysis]
   <span class="tab-button" onclick="openTab('tab3', this)"> Data </span>
 </div>
 
-<div id="tab1" class="tab-content" style="display:block;"> With the rise of digital platforms, the barriers to publishing music have never been lower, and in principle, the path to success has been democratised: any artist can share their work online, and any listener, anywhere, can discover it. Yet the music industry has long been structured by gatekeeping, where success depended on being in the right place and knowing the right people. Has digitisation truly dissolved these barriers, or do geography and social ties still matter? /div>
+<div id="tab1" class="tab-content" style="display:block;"> With the rise of digital platforms, the barriers to publishing music have never been lower, and in principle, the path to success has been democratised: any artist can share their work online, and any listener, anywhere, can discover it. Yet the music industry has long been structured by gatekeeping, where success depended on being in the right place and knowing the right people. Has digitisation truly dissolved these barriers, or do geography and social ties still matter? </div>
 <div id="tab2" class="tab-content" style="display:none;"> Sample « rising stars » and analyse as opposed to « super stars ». Build typology of success with curve fitting. Network analysis for proximity index. </div>
-<div id="tab2" class="tab-content" style="display:none;"> Full listening histories of 50k randomly selected users from january 2020 to december 2022. </div>
+<div id="tab3" class="tab-content" style="display:none;"> Full listening histories of 50k randomly selected users from january 2020 to december 2022. </div>
 
 <script>
 function openTab(id, el) {
