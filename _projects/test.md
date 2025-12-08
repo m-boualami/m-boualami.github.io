@@ -27,6 +27,7 @@ function openTab(id, el) {
 }
 </script>
 
+
 This project takes the “death of distance” hypothesis and applies it to music, asking whether digitisation has truly dissolved spatial hierarchies. We uncover an intriguing contradiction : a simultaneous process of **centralisation and decentralisation** in music scenes. The Paris region, the French music industry's historic hub, remains more influential than ever. At the same time, rural regions that historically struggled to produce notable acts are now finally generating successful artists, often at levels proportional to their population. This emergence of talent from previously underrepresented areas highlights a **new geographical diversification of success** in the French music scene. The main losers of this dual movement are intermediate scenes, large cities outside Paris that historically competed with the capital and now struggle to achieve the same level of success. 
 
 <p align="center">
