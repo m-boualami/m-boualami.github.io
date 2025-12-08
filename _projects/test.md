@@ -10,16 +10,20 @@ tags: [streaming platform, urban hierarchies, big data analysis]
  > With the rise of digital platforms, the barriers to publishing music have never been lower, and in principle, the path to success has been democratised: any artist can share their work online, and any listener, anywhere, can discover it. Yet the music industry has long been structured by gatekeeping, where success depended on being in the right place and knowing the right people. Has digitisation truly dissolved these barriers, or do geography and social ties still matter? 
 
 <div class="tabs">
-  <button class="tab-button" onclick="openTab('tab1')">Onglet 1</button>
-  <button class="tab-button" onclick="openTab('tab2')">Onglet 2</button>
+  <span class="tab-button active" onclick="openTab('tab1', this)">Onglet 1</span>
+  <span class="tab-button" onclick="openTab('tab2', this)">Onglet 2</span>
 </div>
+
 <div id="tab1" class="tab-content">Contenu 1</div>
 <div id="tab2" class="tab-content" style="display:none;">Contenu 2</div>
 
 <script>
-function openTab(id) {
-  document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
-  document.getElementById(id).style.display = 'block';
+function openTab(id, el) {
+  document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none')
+  document.getElementById(id).style.display = 'block'
+
+  document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'))
+  el.classList.add('active')
 }
 </script>
 
