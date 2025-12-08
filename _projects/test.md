@@ -17,16 +17,17 @@ tags: [streaming platform, urban hierarchies, big data analysis]
 
 .tab-button {
   cursor: pointer;
-  padding: 0.4rem 0.8rem;
+  padding: 0.6rem 1rem;       /* espace autour du texte */
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 6px;         /* coins arrondis */
   background: #f5f5f5;
   user-select: none;
-  transition: background 0.2s;
+  transition: background 0.2s, transform 0.1s;
 }
 
 .tab-button:hover {
   background: #e8e8e8;
+  transform: translateY(-1px); /* léger effet visuel au survol */
 }
 
 .tab-button.active {
@@ -36,27 +37,40 @@ tags: [streaming platform, urban hierarchies, big data analysis]
 }
 
 .tab-content {
-  padding: 0.5rem 0;
+  display: none;              /* masqué par défaut */
+  padding: 0.5rem 0;          /* espace interne pour le contenu */
+}
+
+.tab-content.active {
+  display: block;             /* affichage de l’onglet actif */
 }
 </style>
 
 <div class="tabs">
-  <span class="tab-button active" onclick="openTab('tab1', this)"> Abstract </span>
-  <span class="tab-button" onclick="openTab('tab2', this)"> Method </span>
-  <span class="tab-button" onclick="openTab('tab3', this)"> Data </span>
+  <span class="tab-button active" onclick="openTab('tab1', this)">Abstract</span>
+  <span class="tab-button" onclick="openTab('tab2', this)">Method</span>
+  <span class="tab-button" onclick="openTab('tab3', this)">Data</span>
 </div>
 
-<div id="tab1" class="tab-content" style="display:block;"> With the rise of digital platforms, the barriers to publishing music have never been lower, and in principle, the path to success has been democratised: any artist can share their work online, and any listener, anywhere, can discover it. Yet the music industry has long been structured by gatekeeping, where success depended on being in the right place and knowing the right people. Has digitisation truly dissolved these barriers, or do geography and social ties still matter? </div>
-<div id="tab2" class="tab-content" style="display:none;"> Sample « rising stars » and analyse as opposed to « super stars ». Build typology of success with curve fitting. Network analysis for proximity index. </div>
-<div id="tab3" class="tab-content" style="display:none;"> Full listening histories of 50k randomly selected users from january 2020 to december 2022. </div>
+<div id="tab1" class="tab-content active">
+With the rise of digital platforms, the barriers to publishing music have never been lower, and in principle, the path to success has been democratised: any artist can share their work online, and any listener, anywhere, can discover it. Yet the music industry has long been structured by gatekeeping, where success depended on being in the right place and knowing the right people. Has digitisation truly dissolved these barriers, or do geography and social ties still matter?
+</div>
+
+<div id="tab2" class="tab-content">
+Sample « rising stars » and analyse as opposed to « super stars ». Build typology of success with curve fitting. Network analysis for proximity index.
+</div>
+
+<div id="tab3" class="tab-content">
+Full listening histories of 50k randomly selected users from January 2020 to December 2022.
+</div>
 
 <script>
 function openTab(id, el) {
-  document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none')
-  document.getElementById(id).style.display = 'block'
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
 
-  document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'))
-  el.classList.add('active')
+  document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+  el.classList.add('active');
 }
 </script>
 
