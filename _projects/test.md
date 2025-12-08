@@ -47,7 +47,7 @@ tags: [streaming platform, urban hierarchies, big data analysis]
   <span class="tab-button" onclick="openTab('tab2', this)">Onglet 2</span>
 </div>
 
-<div id="tab1" class="tab-content">Contenu 1</div>
+<div id="tab1" class="tab-content" style="display:block;">Contenu 1</div>
 <div id="tab2" class="tab-content" style="display:none;">Contenu 2</div>
 
 <script>
