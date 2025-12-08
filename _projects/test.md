@@ -9,26 +9,19 @@ tags: [streaming platform, urban hierarchies, big data analysis]
 ---
  > With the rise of digital platforms, the barriers to publishing music have never been lower, and in principle, the path to success has been democratised: any artist can share their work online, and any listener, anywhere, can discover it. Yet the music industry has long been structured by gatekeeping, where success depended on being in the right place and knowing the right people. Has digitisation truly dissolved these barriers, or do geography and social ties still matter? 
 
-<!-- Inputs radio pour les onglets -->
-<input type="radio" id="tab1" name="tabs" checked>
-<input type="radio" id="tab2" name="tabs">
-
-<!-- Les labels qui servent de boutons pour les onglets -->
 <div class="tabs">
-  <label for="tab1" class="tab-label">Onglet 1</label>
-  <label for="tab2" class="tab-label">Onglet 2</label>
+  <button class="tab-button" onclick="openTab('tab1')">Onglet 1</button>
+  <button class="tab-button" onclick="openTab('tab2')">Onglet 2</button>
 </div>
+<div id="tab1" class="tab-content">Contenu 1</div>
+<div id="tab2" class="tab-content" style="display:none;">Contenu 2</div>
 
-<!-- Contenu des onglets -->
-<div class="content">
-  <div id="content1" class="tab-content">
-    <p>Contenu du premier onglet. Vous pouvez y mettre du texte, des images ou tout autre élément HTML.</p>
-  </div>
-  <div id="content2" class="tab-content">
-    <p>Contenu du second onglet. Il s’affiche uniquement lorsque l’onglet 2 est sélectionné.</p>
-  </div>
-</div>
-
+<script>
+function openTab(id) {
+  document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
+  document.getElementById(id).style.display = 'block';
+}
+</script>
 
 This project takes the “death of distance” hypothesis and applies it to music, asking whether digitisation has truly dissolved spatial hierarchies. We uncover an intriguing contradiction : a simultaneous process of **centralisation and decentralisation** in music scenes. The Paris region, the French music industry's historic hub, remains more influential than ever. At the same time, rural regions that historically struggled to produce notable acts are now finally generating successful artists, often at levels proportional to their population. This emergence of talent from previously underrepresented areas highlights a **new geographical diversification of success** in the French music scene. The main losers of this dual movement are intermediate scenes, large cities outside Paris that historically competed with the capital and now struggle to achieve the same level of success. 
 
