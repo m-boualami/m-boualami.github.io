@@ -9,9 +9,9 @@ navbar_entries:
     url: "https://m-boualami.github.io/projects/cv/"
 
 project_entries:
-  - title: Test
+  - title: "The « death of distance » hypothesis"
     url: "https://m-boualami.github.io/projects/test/"
-    desc: "Trial run!"
+    desc: "spatial logics of innovation in the era of streaming platforms"
 
   - title: "A semantic cartography of rap music"
     url: "https://m-boualami.github.io/projects/semantic-rap-cartography/"
