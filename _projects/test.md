@@ -1,9 +1,7 @@
 ---
 layout: post
 author: Myriam Boualami
-title : "Test n°1"
-tagline: "To be successfull in a digitised world"
-description: "This research was translated into a roundtable, fostering a dialogue between diverse industry stakeholders and providing a data-driven framework to address sector-wide challenges."
+title : "The « death of distance » hypothesis"
 permalink: /projects/test/
 tags: [streaming platform, urban hierarchies, big data analysis]
 ---
@@ -17,7 +15,7 @@ tags: [streaming platform, urban hierarchies, big data analysis]
 
 .tab-button {
   cursor: pointer;
-  padding: 0.6rem 1rem;       /* espace autour du texte */
+  padding: 0.3rem 1rem;       /* espace autour du texte */
   border: 1px solid #ccc;
   border-radius: 6px;         /* coins arrondis */
   background: #f5f5f5;
@@ -49,6 +47,10 @@ tags: [streaming platform, urban hierarchies, big data analysis]
   display: block;             /* affichage de l’onglet actif */
 }
 </style>
+
+## Geography of innovation
+
+*This research was translated into a roundtable, fostering a dialogue between diverse industry stakeholders and providing a data-driven framework to address sector-wide challenges.*
 
 <div class="tabs">
   <span class="tab-button active" onclick="openTab('tab1', this)">Abstract</span>
