@@ -2,10 +2,9 @@
 layout: post
 author: Myriam Boualami
 title : "The « death of distance » hypothesis"
+tagline : "shifting spatial logics of innovation in a digitised world?"
 permalink: /projects/test/
 ---
-
-## Geography of innovation
 
 *This research was translated into a roundtable, fostering a dialogue between diverse industry stakeholders and providing a data-driven framework to address sector-wide challenges.*
 
