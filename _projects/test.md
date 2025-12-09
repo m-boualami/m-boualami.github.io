@@ -3,7 +3,6 @@ layout: post
 author: Myriam Boualami
 title : "The « death of distance » hypothesis"
 permalink: /projects/test/
-tags: [streaming platform, urban hierarchies, big data analysis]
 ---
 
 ## Geography of innovation
