@@ -12,11 +12,11 @@ ul.horizontal-list {
 
   li a {
     text-decoration: none;
-    font-weight: normal
+    font-weight: normal;
   }
-
 }
 
+/* -------------------- Cards -------------------- */
 .card {
   padding: 1em;
   border: 1px var(--text) solid;
@@ -28,6 +28,7 @@ ul.horizontal-list {
   background-color: var(--bg-secondary);
   margin-bottom: 0.8em;
   border-radius: 0.5em;
+  transition: background 0.2s, transform 0.1s;
 
   .header {
     color: var(--links);
@@ -40,7 +41,13 @@ ul.horizontal-list {
   hr {
     margin: 0.5em 0;
   }
+}
 
+/* Hover effect similaire aux tab-button */
+.card:hover {
+  background-color: var(--highlight);
+  transform: translateY(-1px);
+  cursor: pointer;
 }
 
 /* Responsive cards - one column layout on small screens */
@@ -65,9 +72,9 @@ ul.horizontal-list {
 
 .tab-button {
   cursor: pointer;
-  padding: 0.6rem 1.2rem;                  // marges internes pour le texte
+  padding: 0.6rem 1.2rem;
   border: 1px solid var(--text-secondary);
-  border-radius: 6px;                      // coins arrondis
+  border-radius: 6px;
   background-color: var(--bg-secondary);
   color: var(--text);
   user-select: none;
@@ -86,15 +93,14 @@ ul.horizontal-list {
 }
 
 .tab-content {
-  display: none;                             // masqué par défaut
-  padding: 1rem 1.5rem;                      // espace intérieur
+  display: none;
+  padding: 1rem 1.5rem;
   border: 1px solid var(--text-secondary);
-  border-radius: 8px;                         // coins arrondis
+  border-radius: 8px;
   background-color: var(--bg-secondary);
   margin-top: 0.5rem;
 }
 
 .tab-content.active {
-  display: block;                            // onglet actif affiché
+  display: block;
 }
-
