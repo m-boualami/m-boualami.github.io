@@ -13,12 +13,17 @@ project_entries:
     slug: "death-of-distance"
     desc: "shifting spatial logics of innovation in a digitised world?"
     abstract: |
-      This project takes the “death of distance” hypothesis and applies it to music, asking whether digitisation has truly dissolved spatial hierarchies. 
-      We uncover an intriguing contradiction : a simultaneous process of **centralisation and decentralisation** of innovation hubs. 
-      The Paris region, the French music industry’s historic hub, remains more influential than ever. 
-      At the same time, rural regions that historically struggled to produce notable acts are now finally generating successful artists, often at levels proportional to their population. 
-      This emergence of talent from previously underrepresented areas highlights a new geographical diversification of success in the French music scene. 
-      The main losers of this dual movement are intermediate scenes, large cities outside Paris that historically competed with the capital and now struggle to achieve the same level of success.
+      **Innovation as the geography of centers**
+      Musical innovation is less an aesthetic shift than a capacity for risk-taking, conditioned by financial investment. These resources tend to concentrate in a handful of geographical hubs, producing a landscape of centres and peripheries, and a dependence among artists on proximity to these cores.
+     
+      **Streaming promised a spatial revolution**
+      Digitisation and the rise of platforms have devalued music distribution (near‑zero cost) and desacralised it (weakening traditional gatekeepers). Platformisation was meant to democratise success, heralding a « death of distance ». Ten years on, what do we actually observe?
+      
+      **A dual movement: de-centralisation and re-centralisation**
+      Analysis of streaming data reveals a dual transformation: innovation has decentralised geographically, with more breakout artists anchored outside traditional centers, yet their emergence remains socially dependent on connection to those same centres. Simultaneously, core hubs now produce innovation at an unprecedented scale. The losers? Intermediate hubs, generating less innovation and, when they do, struggle to translate it into lasting success.
+
+      *Research conducted using Deezer data, combining geolocation of emerging artists with analysis of their collaboration networks.*
+      
     external_link: "https://m-boualami.github.io/projects/test/"
 
   - title: "Projet B"
