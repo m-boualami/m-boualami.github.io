@@ -26,12 +26,21 @@ project_entries:
       
     external_link: "https://m-boualami.github.io/projects/test/"
 
-  - title: "Projet B"
-    slug: "projet-b"
-    desc: "Sous-titre de la card."
+  - title: "Semantics of embeddings"
+    slug: "semantic-embedding"
+    desc: "does meaning emerge from mass‑individualised listening?"
     abstract: |
-      Description détaillée du projet.  
-      Etc.
+      **From industrial taxonomy to personal curation**
+      For decades, musical meaning was dictated by the rigid, top‑down taxonomy of genre. Streaming platforms promised a revolution: individualisation. By empowering listeners to curate personal playlists and discover music algorithmically, a new, emergent semantics—driven by consumption itself—was meant to replace industrial labels.
+
+      **Collective semantic map emerges from individual streams**
+      By analysing aggregated streaming co‑occurrences at scale, we reveal how individualised listening habits collectively produce a coherent, thematic map of artists. This map is not based on genre, but on latent cultural affinities—a shared semantics that emerges organically from billions of personal choices.
+
+      **A revealing generational rift in taste**
+      This new map exposes a stark divide in cultural alignment: women of all ages and older men occupy distinct thematic territories, but young men (12–24) align their tastes more closely with those of all women than with their older male counterparts. The promise of individualisation has, paradoxically, redrawn the lines of collective meaning along a clear generational fault line.
+      
+      *Analysis based on Deezer streaming data, combining consumption patterns, lyrical content, and users demographic.*
+      
     external_link: "https://m-boualami.github.io/projects/test/"
 
 old_project_entries:
