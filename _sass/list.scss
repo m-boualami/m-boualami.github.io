@@ -93,7 +93,8 @@ ul.horizontal-list {
   max-width: 600px;
   width: 90%;
   max-height: 80%;
-  overflow-y: auto;
+  overflow-x: hidden; 
+  overflow-y: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
@@ -112,6 +113,15 @@ ul.horizontal-list {
   display: none;
 }
 
+/* <<< AJUSTEMENT A LA FENETRE >>> */
+@supports (container-type: inline-size) {
+  .modal-content {
+    container-type: inline-size;
+  }
+  .modal-content * {
+    font-size: calc(1cqw);
+  }
+}
 
 /* -------------------- Tabs -------------------- */
 .tabs {
