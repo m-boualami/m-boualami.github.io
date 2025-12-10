@@ -96,7 +96,6 @@ ul.horizontal-list {
   overflow-y: auto; 
   box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
   transition: transform 0.2s ease, opacity 0.2s ease;
-}
 
   .header {
     color: var(--links);
@@ -105,6 +104,7 @@ ul.horizontal-list {
   .body {
     font-size: 0.9em; /* ici pour changer la taille du contenu */
   }
+}
 
 .modal-close {
   position: absolute;
