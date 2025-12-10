@@ -1,26 +1,60 @@
 <ul class="horizontal-list">
   {% for item in include.collection %}
+    {% assign item_id = item.slug | default: item.title | slugify %}
 
-    <li class="card">
-      <a href="{{ item.url }}">
-        <span class="header">
-          {{ item.title }}
+    <li class="card" 
+        role="button" 
+        tabindex="0"
+        onclick="openModal('modal-{{ item_id }}')"
+        onkeypress="if(event.key==='Enter') openModal('modal-{{ item_id }}')">
 
-          {% if item.highlight %}
-            <mark>{{ item.highlight }}</mark>
-          {% endif %}
+      <div class="card-inner">
+        <span class="header">{{ item.title }}</span>
 
-        </span>
-
-        <hr />
-
-        {% if item.desc != false %}
-        <p class="body">
-          {{ item.desc }}
-        </p>
+        {% if item.desc %}
+        <p class="body">{{ item.desc }}</p>
         {% endif %}
-      </a>
+      </div>
     </li>
-
   {% endfor %}
 </ul>
+
+
+<!-- Modals -->
+{% for item in include.collection %}
+  {% assign item_id = item.slug | default: item.title | slugify %}
+
+  <div id="modal-{{ item_id }}" class="modal" aria-hidden="true">
+    
+    <div class="modal-backdrop" onclick="closeModal('modal-{{ item_id }}')"></div>
+
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal('modal-{{ item_id }}')">&times;</button>
+
+      <h2>{{ item.title }}</h2>
+
+      {% if item.desc %}
+      <h3>{{ item.desc }}</h3>
+      {% endif %}
+
+      {% if item.abstract %}
+      <div class="modal-abstract">
+        {{ item.abstract | markdownify }}
+      </div>
+      {% endif %}
+
+      {% if item.external_link %}
+      <p>
+        <a class="button" href="{{ item.external_link }}" target="_blank">
+          Voir le livrable
+        </a>
+      </p>
+      {% endif %}
+
+      <p>
+        <button class="button" onclick="closeModal('modal-{{ item_id }}')">Fermer</button>
+      </p>
+
+    </div>
+  </div>
+{% endfor %}
