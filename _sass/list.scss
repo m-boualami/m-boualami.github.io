@@ -98,6 +98,14 @@ ul.horizontal-list {
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
+  .header {
+    color: var(--links);
+  }
+
+  .body {
+    font-size: 0.9em; /* ici pour changer la taille du contenu */
+  }
+
 .modal-close {
   position: absolute;
   top: 0.5em;
