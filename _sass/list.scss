@@ -155,12 +155,12 @@ ul.horizontal-list {
   display: block;
 }
 
-/* Réduction globale de la taille de la police */
-html {
+/* Réduction globale de la taille de la police /*
+/* html {
   font-size: 0.9rem; // tu peux ajuster le pourcentage
-}
+} /*
 
 /* Assurer que headers, cards, tabs, footers héritent */
-body, h1, h2, h3, h4, h5, h6, p, a, li, .card, .tab-button, .tab-content, footer {
+/* body, h1, h2, h3, h4, h5, h6, p, a, li, .card, .tab-button, .tab-content, footer {
   font-size: inherit;
-}
+} /*
