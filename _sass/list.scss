@@ -74,7 +74,6 @@ ul.horizontal-list {
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  background-color: var(--bg-secondary);
 }
 
 .modal-backdrop {
@@ -89,7 +88,6 @@ ul.horizontal-list {
 /* la première slide */
 .modal-slide .card-inner {
   text-align: center;
-  background-color: var(--bg-secondary);
 
   .header { color: var(--links); }
   .body { font-size: 0.8em; }
@@ -111,11 +109,16 @@ ul.horizontal-list {
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-/* Couleur du titre et de la description dans le modal */
+/* appliquer la taille de police à tout le texte à l’intérieur */
+.modal-content .body {
+  font-size: 0.8em;
+}
+
+/* Couleur du titre et de la description dans le modal 
 .modal-content h2,
 .modal-content h3 {
   color: var(--links);
-}
+}*/
 
 .modal-close {
   position: absolute;
