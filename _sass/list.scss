@@ -116,6 +116,30 @@ ul.horizontal-list {
   }
 }
 
+/* conteneur des boutons — juste la structure */
+.modal-slide-nav {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  padding-top: 1em;
+}
+/* style appliqué aux boutons */
+.modal-slide-nav button {
+  border: 1px var(--text) solid;
+  background-color: var(--bg-secondary);
+  cursor: pointer;
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  font-size: 1.2rem;
+  transition: background-color 0.2s ease;
+}
+/* effet hover sur les boutons */
+.modal-slide-nav button:hover {
+  background-color: var(--highlight);
+}
+
+
 /* la première slide */
 .modal-slide .card-inner {
   text-align: center;
