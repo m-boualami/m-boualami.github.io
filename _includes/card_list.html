@@ -10,25 +10,21 @@
 
       <div class="card-inner">
         <span class="header">
-          
           {{ item.title }}
           {% if item.highlight %}
             <mark>{{ item.highlight }}</mark>
           {% endif %}
-          
         </span>
-        
+
         <hr />
-        
+
         {% if item.desc %}
         <p class="body">{{ item.desc }}</p>
         {% endif %}
-        
       </div>
     </li>
   {% endfor %}
 </ul>
-
 
 <!-- Modals -->
 {% for item in include.collection %}
@@ -44,7 +40,7 @@
       <!-- Slider container -->
       <div class="modal-slides" data-active-slide="0">
         
-        <!-- Slide 1 : titre + desc -->
+        <!-- Slide 1 : title + desc -->
         <div class="modal-slide">
           <h2 class="modal-title" style="color: var(--links)">{{ item.title }}</h2>
           {% if item.desc %}
@@ -98,7 +94,6 @@
   </div>
 {% endfor %}
 
-
 <script>
 function openModal(id) {
   const m = document.getElementById(id);
@@ -109,42 +104,26 @@ function closeModal(id) {
   const m = document.getElementById(id);
   if (m) m.setAttribute('aria-hidden', 'true');
 }
-</script>
 
-<script>
-function nextSlide(btn) {
-  const container = btn.parentElement;
-  const slides = container.querySelectorAll('.slide');
+function changeSlide(modalId, direction) {
+  const container = document.querySelector('#modal-' + modalId + ' .modal-slides');
+  const slides = container.querySelectorAll('.modal-slide');
   let index = parseInt(container.dataset.activeSlide);
 
-  index = (index + 1) % slides.length;
-
+  index = (index + direction + slides.length) % slides.length;
   container.dataset.activeSlide = index;
-  updateSlides(container, slides, index);
-}
 
-function prevSlide(btn) {
-  const container = btn.parentElement;
-  const slides = container.querySelectorAll('.slide');
-  let index = parseInt(container.dataset.activeSlide);
-
-  index = (index - 1 + slides.length) % slides.length;
-
-  container.dataset.activeSlide = index;
-  updateSlides(container, slides, index);
-}
-
-function updateSlides(container, slides, index) {
   slides.forEach((s, i) => {
     s.style.display = i === index ? 'block' : 'none';
   });
 }
 
+// Initialisation des slides au chargement
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".modal-slides").forEach(container => {
-    const slides = container.querySelectorAll('.slide');
-    updateSlides(container, slides, 0);
+    const slides = container.querySelectorAll('.modal-slide');
+    slides.forEach((s, i) => s.style.display = i === 0 ? 'block' : 'none');
+    container.dataset.activeSlide = 0;
   });
 });
 </script>
-
