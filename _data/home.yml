@@ -13,13 +13,13 @@ project_entries:
     slug: "death-of-distance"
     desc: "shifting spatial logics of innovation in a digitised world?"
     highlight: "Academic"
-    abstract: |
+    slide_1: |
       **Innovation as the geography of centers**
       Musical innovation is less an aesthetic shift than a capacity for risk-taking, conditioned by financial investment. These resources tend to concentrate in a handful of geographical hubs, producing a landscape of centres and peripheries, and a dependence among artists on proximity to these cores.
-     
+    slide_2: |
       **Streaming promised a spatial revolution**
       Digitisation and the rise of platforms have devalued music distribution (near‑zero cost) and desacralised it (weakening traditional gatekeepers). Platformisation was meant to democratise success, heralding a « death of distance ». Ten years on, what do we actually observe?
-      
+    slide_3: |
       **A dual movement: de-centralisation and re-centralisation**
       Analysis of streaming data reveals a dual transformation: innovation has decentralised geographically, with more breakout artists anchored outside traditional centers, yet their emergence remains socially dependent on connection to those same centres. Simultaneously, core hubs now produce innovation at an unprecedented scale. The losers? Intermediate hubs, generating less innovation and, when they do, struggle to translate it into lasting success.
 
@@ -31,13 +31,13 @@ project_entries:
     slug: "semantic-embedding"
     desc: "does meaning emerge from mass‑individualised consumption?"
     highlight: "Academic"
-    abstract: |
+    slide_1: |
       **From industrial taxonomy to personal curation**
       For decades, musical meaning was dictated by the rigid, top‑down taxonomy of genre. Streaming platforms promised a revolution: individualisation. By empowering listeners to curate personal playlists and discover music algorithmically, a new, emergent semantics—driven by consumption itself—was meant to replace industrial labels.
-
+    slide_2: |
       **Collective semantic map emerges from individual streams**
       By analysing aggregated streaming co‑occurrences at scale, we reveal how individualised listening habits collectively produce a coherent, thematic map of artists. This map is not based on genre, but on latent cultural affinities—a shared semantics that emerges organically from billions of personal choices.
-
+    slide_3: |
       **A revealing generational rift in taste**
       This new map exposes a stark divide in cultural alignment: women of all ages and older men occupy distinct thematic territories, but young men (12–24) align their tastes more closely with those of all women than with their older male counterparts. The promise of individualisation has, paradoxically, redrawn the lines of collective meaning along a clear generational fault line.
       
@@ -49,13 +49,13 @@ project_entries:
     slug: "discount-analysis"
     desc: "should our best products be on sale?"
     highlight: "Industry"
-    abstract: |
+    slide_1: |
       **The Aggregate Illusion**
       At first glance, our tech category shows low overall price elasticity (-0.5), suggesting discounting is inefficient. This blanket view, however, conceals a critical segmentation that makes our uniform strategy sub-optimal.
-
+    slide_2: |
       **High at the bottom, low at the top**
       A granular analysis reveals a clear dichotomy. Entry-tier products show high elasticity (-2.0): discounts here effectively drive volume. Conversely, premium products show low elasticity (-0.3): discounts erode margin without significantly boosting sales, as purchase decisions are driven by brand and features, not price.
-
+    slide_3: |
       **Strategic Implications**
       A potential refinement would be to segment discount strategies by price tier, using promotions to drive volume at the low end while reinforcing perceived value at the high end through curated bundles or exclusives.
 
@@ -66,7 +66,7 @@ project_entries:
   - title: "Project 4"
     slug: "project-4"
     desc: "here's a research question"
-    abstract: |
+    slide_1: |
       Here is a markdown desc.
   
     external_link: ""
@@ -74,7 +74,7 @@ project_entries:
   - title: "Project 5"
     slug: "project-5"
     desc: "here's another research question"
-    abstract: |
+    slide_1: |
       Here is a markdown desc.
   
     external_link: ""
