@@ -43,38 +43,38 @@ project_entries:
       
     external_link: "https://m-boualami.github.io/projects/test/"
 
-- title: "The Discount Trap"
-  slug: "discount-analysis"
-  desc: "should our best products be on sale?"
-  abstract: |
-    **The Aggregate Illusion**
-    At first glance, our tech category shows low overall price elasticity (-0.5), suggesting discounting is inefficient. This blanket view, however, conceals a critical segmentation that makes our uniform strategy sub-optimal.
+  - title: "The Discount Trap"
+    slug: "discount-analysis"
+    desc: "should our best products be on sale?"
+    abstract: |
+      **The Aggregate Illusion**
+      At first glance, our tech category shows low overall price elasticity (-0.5), suggesting discounting is inefficient. This blanket view, however, conceals a critical segmentation that makes our uniform strategy sub-optimal.
+  
+      **A Tiered Reality: High Sensitivity at the Bottom, Low at the Top**
+      A granular analysis reveals a clear dichotomy. **Entry-tier products show high elasticity (~-2.0)**: discounts here effectively drive volume. Conversely, **premium products show low elasticity (~-0.3)**: discounts erode margin without significantly boosting sales, as purchase decisions are driven by brand and features, not price.
+  
+      *Strategic Implications: Rethinking the Promotion Playbook*
+      A potential refinement would be to segment discount strategies by price tier, using promotions to drive volume at the low end while reinforcing perceived value at the high end through curated bundles or exclusives.
+  
+      *Analysis based on online marketplace transaction and pricing data.*
+      
+    external_link: ""
 
-    **A Tiered Reality: High Sensitivity at the Bottom, Low at the Top**
-    A granular analysis reveals a clear dichotomy. **Entry-tier products show high elasticity (~-2.0)**: discounts here effectively drive volume. Conversely, **premium products show low elasticity (~-0.3)**: discounts erode margin without significantly boosting sales, as purchase decisions are driven by brand and features, not price.
-
-    *Strategic Implications: Rethinking the Promotion Playbook*
-    A potential refinement would be to segment discount strategies by price tier, using promotions to drive volume at the low end while reinforcing perceived value at the high end through curated bundles or exclusives.
-
-    *Analysis based on online marketplace transaction and pricing data.*
-    
-  external_link: ""
-
-- title: "Project 4"
-  slug: "project-4"
-  desc: "here's a research question"
-  abstract: |
-    Here is a markdown desc.
-
-  external_link: ""
-
-- title: "Project 5"
-  slug: "project-5"
-  desc: "here's another research question"
-  abstract: |
-    Here is a markdown desc.
-
-  external_link: ""
+  - title: "Project 4"
+    slug: "project-4"
+    desc: "here's a research question"
+    abstract: |
+      Here is a markdown desc.
+  
+    external_link: ""
+  
+  - title: "Project 5"
+    slug: "project-5"
+    desc: "here's another research question"
+    abstract: |
+      Here is a markdown desc.
+  
+    external_link: ""
   
 old_project_entries:
   - title: Soopr
