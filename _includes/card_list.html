@@ -93,13 +93,6 @@
         <button class="button next-slide" onclick="changeSlide('{{ item_id }}', 1)">›</button>
       </div>
 
-      {% if item.external_link %}
-      <p>
-        <a class="button" href="{{ item.external_link }}" target="_blank">
-          Deliverable
-        </a>
-      </p>
-      {% endif %}
     </div>
   </div>
 {% endfor %}
