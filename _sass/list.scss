@@ -74,6 +74,7 @@ ul.horizontal-list {
   justify-content: center;
   align-items: center;
   z-index: 9999;
+  background-color: var(--bg-secondary);
 }
 
 .modal-backdrop {
@@ -84,6 +85,17 @@ ul.horizontal-list {
   height: 100%;
   background-color: rgba(0,0,0,0.5);
 }
+
+/* la première slide */
+.modal-slide .card-inner {
+  text-align: center;
+  background-color: var(--bg-secondary);
+
+  .header { color: var(--links); }
+  .body { font-size: 0.8em; }
+  hr { margin: 0.5em 0; }
+}
+/* fin de la première slide*/
 
 .modal-content { 
   position: relative; 
