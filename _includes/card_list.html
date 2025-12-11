@@ -41,42 +41,63 @@
     <div class="modal-content">
       <button class="modal-close" onclick="closeModal('modal-{{ item_id }}')">&times;</button>
 
-      <h2>{{ item.title }}</h2>
-
-      {% if item.desc %}
-      <h3>{{ item.desc }}</h3>
-      {% endif %}
-      <!-- SLIDER -->
+      <!-- Slider container -->
       <div class="modal-slides" data-active-slide="0">
-      
+        
+        <!-- Slide 1 : titre + desc -->
+        <div class="modal-slide">
+          <h2 class="modal-title" style="color: var(--links)">{{ item.title }}</h2>
+          {% if item.desc %}
+          <h3 class="modal-desc" style="color: var(--links)">{{ item.desc }}</h3>
+          {% endif %}
+        </div>
+
+        <!-- Slide 2 : slide_1 -->
         {% if item.slide_1 %}
-        <div class="slide">{{ item.slide_1 | markdownify }}</div>
+        <div class="modal-slide">
+          <div class="modal-slide-content">
+            {{ item.slide_1 | markdownify }}
+          </div>
+        </div>
         {% endif %}
-      
+
+        <!-- Slide 3 : slide_2 -->
         {% if item.slide_2 %}
-        <div class="slide">{{ item.slide_2 | markdownify }}</div>
+        <div class="modal-slide">
+          <div class="modal-slide-content">
+            {{ item.slide_2 | markdownify }}
+          </div>
+        </div>
         {% endif %}
-      
+
+        <!-- Slide 4 : slide_3 -->
         {% if item.slide_3 %}
-        <div class="slide">{{ item.slide_3 | markdownify }}</div>
+        <div class="modal-slide">
+          <div class="modal-slide-content">
+            {{ item.slide_3 | markdownify }}
+          </div>
+        </div>
         {% endif %}
-      
-        <button class="slide-prev" onclick="prevSlide(this)">‹</button>
-        <button class="slide-next" onclick="nextSlide(this)">›</button>
-      
+
       </div>
-      <!-- END SLIDER -->
+
+      <!-- Navigation boutons -->
+      <div class="modal-slide-nav">
+        <button class="button prev-slide" onclick="changeSlide('{{ item_id }}', -1)">‹</button>
+        <button class="button next-slide" onclick="changeSlide('{{ item_id }}', 1)">›</button>
+      </div>
+
       {% if item.external_link %}
       <p>
         <a class="button" href="{{ item.external_link }}" target="_blank">
-          Deliverable
+          Voir le livrable
         </a>
       </p>
       {% endif %}
-
     </div>
   </div>
 {% endfor %}
+
 
 <script>
 function openModal(id) {
