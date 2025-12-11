@@ -96,14 +96,12 @@ ul.horizontal-list {
   overflow-y: auto; 
   box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
   transition: transform 0.2s ease, opacity 0.2s ease;
+}
 
-  .header {
-    color: var(--links);
-  }
-
-  .body {
-    font-size: 0.9em; /* ici pour changer la taille du contenu */
-  }
+/* Couleur du titre et de la description dans le modal */
+.modal-content h2,
+.modal-content h3 {
+  color: var(--links);
 }
 
 .modal-close {
