@@ -46,13 +46,26 @@
       {% if item.desc %}
       <h3>{{ item.desc }}</h3>
       {% endif %}
-
-      {% if item.abstract %}
-      <div class="modal-abstract">
-        {{ item.abstract | markdownify }}
+      <!-- SLIDER -->
+      <div class="modal-slides" data-active-slide="0">
+      
+        {% if item.slide_1 %}
+        <div class="slide">{{ item.slide_1 | markdownify }}</div>
+        {% endif %}
+      
+        {% if item.slide_2 %}
+        <div class="slide">{{ item.slide_2 | markdownify }}</div>
+        {% endif %}
+      
+        {% if item.slide_3 %}
+        <div class="slide">{{ item.slide_3 | markdownify }}</div>
+        {% endif %}
+      
+        <button class="slide-prev" onclick="prevSlide(this)">‹</button>
+        <button class="slide-next" onclick="nextSlide(this)">›</button>
+      
       </div>
-      {% endif %}
-
+      <!-- END SLIDER -->
       {% if item.external_link %}
       <p>
         <a class="button" href="{{ item.external_link }}" target="_blank">
@@ -75,5 +88,42 @@ function closeModal(id) {
   const m = document.getElementById(id);
   if (m) m.setAttribute('aria-hidden', 'true');
 }
+</script>
+
+<script>
+function nextSlide(btn) {
+  const container = btn.parentElement;
+  const slides = container.querySelectorAll('.slide');
+  let index = parseInt(container.dataset.activeSlide);
+
+  index = (index + 1) % slides.length;
+
+  container.dataset.activeSlide = index;
+  updateSlides(container, slides, index);
+}
+
+function prevSlide(btn) {
+  const container = btn.parentElement;
+  const slides = container.querySelectorAll('.slide');
+  let index = parseInt(container.dataset.activeSlide);
+
+  index = (index - 1 + slides.length) % slides.length;
+
+  container.dataset.activeSlide = index;
+  updateSlides(container, slides, index);
+}
+
+function updateSlides(container, slides, index) {
+  slides.forEach((s, i) => {
+    s.style.display = i === index ? 'block' : 'none';
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".modal-slides").forEach(container => {
+    const slides = container.querySelectorAll('.slide');
+    updateSlides(container, slides, 0);
+  });
+});
 </script>
 
