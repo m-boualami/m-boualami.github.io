@@ -42,10 +42,20 @@
         
         <!-- Slide 1 : title + desc -->
         <div class="modal-slide">
-          <h2 class="modal-title" style="color: var(--links)">{{ item.title }}</h2>
-          {% if item.desc %}
-          <h3 class="modal-desc" style="color: var(--links)">{{ item.desc }}</h3>
-          {% endif %}
+          <div class="card-inner">  <!-- peut-être à modifier avec modal-slide-content ? -->
+              <span class="header">
+                {{ item.title }}
+                {% if item.highlight %}
+                  <mark>{{ item.highlight }}</mark>
+                {% endif %}
+              </span>
+          
+              <hr />
+          
+              {% if item.desc %}
+              <p class="body">{{ item.desc }}</p>
+              {% endif %}
+            </div>
         </div>
 
         <!-- Slide 2 : slide_1 -->
