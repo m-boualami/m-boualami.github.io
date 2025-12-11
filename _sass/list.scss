@@ -90,6 +90,7 @@ ul.horizontal-list {
   background-color: var(--bg-secondary); 
   padding: 2em; 
   border-radius: 0.5em; 
+  border: 1px var(--text) solid;          // même bordure que les cards
   max-width: 600px; 
   width: 90%; 
   max-height: 80%; 
