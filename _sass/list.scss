@@ -85,40 +85,38 @@ ul.horizontal-list {
   background-color: rgba(0,0,0,0.5);
 }
 
+.modal-content {
+  position: relative;
+  background-color: var(--bg-secondary);
+  border-radius: 0.5em;
+  border: 1px var(--text) solid;
+  padding: 1em;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+
+  /* RATIO CARTE */
+  width: 30vw;           /* largeur proportionnelle à l’écran */
+  aspect-ratio: 2/3;     /* hauteur = 1.5 * largeur → carte verticale */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centrer verticalement le contenu */
+  overflow: hidden;        /* pas de scroll horizontal */
+}
+
 /* la première slide */
 .modal-slide .card-inner {
   text-align: center;
-
   .header { color: var(--links); }
   .body { font-size: 0.8em; }
   hr { margin: 0.5em 0; }
 }
 /* fin de la première slide*/
 
-.modal-content { 
-  position: relative; 
-  background-color: var(--bg-secondary); 
-  padding: 2em; 
-  border-radius: 0.5em; 
-  border: 1px var(--text) solid; /* test */
-  max-width: 600px; 
-  width: 90%; 
-  max-height: 80%; 
-  overflow-y: auto; 
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
-  transition: transform 0.2s ease, opacity 0.2s ease;
-}
-
 /* Taille du texte pour les autres slides */
 .modal-content .modal-slide-content {
   font-size: 0.8em;
 }
-
-/* Couleur du titre et de la description dans le modal 
-.modal-content h2,
-.modal-content h3 {
-  color: var(--links);
-}*/
 
 .modal-close {
   position: absolute;
