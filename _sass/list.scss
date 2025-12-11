@@ -109,8 +109,8 @@ ul.horizontal-list {
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-/* appliquer la taille de police à tout le texte à l’intérieur */
-.modal-content .body {
+/* Taille du texte pour les autres slides */
+.modal-content .modal-slide-content {
   font-size: 0.8em;
 }
 
