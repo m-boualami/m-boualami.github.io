@@ -49,13 +49,13 @@ project_entries:
     abstract: |
       **The Aggregate Illusion**
       At first glance, our tech category shows low overall price elasticity (-0.5), suggesting discounting is inefficient. This blanket view, however, conceals a critical segmentation that makes our uniform strategy sub-optimal.
-  
-      **A Tiered Reality: High Sensitivity at the Bottom, Low at the Top**
-      A granular analysis reveals a clear dichotomy. **Entry-tier products show high elasticity (~-2.0)**: discounts here effectively drive volume. Conversely, **premium products show low elasticity (~-0.3)**: discounts erode margin without significantly boosting sales, as purchase decisions are driven by brand and features, not price.
-  
-      *Strategic Implications: Rethinking the Promotion Playbook*
+
+      **High at the bottom, low at the top**
+      A granular analysis reveals a clear dichotomy. Entry-tier products show high elasticity (-2.0): discounts here effectively drive volume. Conversely, **premium products show low elasticity (~-0.3)**: discounts erode margin without significantly boosting sales, as purchase decisions are driven by brand and features, not price.
+
+      **Strategic Implications**
       A potential refinement would be to segment discount strategies by price tier, using promotions to drive volume at the low end while reinforcing perceived value at the high end through curated bundles or exclusives.
-  
+
       *Analysis based on online marketplace transaction and pricing data.*
       
     external_link: ""
