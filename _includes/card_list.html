@@ -9,11 +9,21 @@
         onkeypress="if(event.key==='Enter') openModal('modal-{{ item_id }}')">
 
       <div class="card-inner">
-        <span class="header">{{ item.title }}</span>
+        <span class="header">
+          
+          {{ item.title }}
+          {% if item.highlight %}
+            <mark>{{ item.highlight }}</mark>
+          {% endif %}
+          
+        </span>
+        
         <hr />
+        
         {% if item.desc %}
         <p class="body">{{ item.desc }}</p>
         {% endif %}
+        
       </div>
     </li>
   {% endfor %}
