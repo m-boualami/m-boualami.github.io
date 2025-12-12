@@ -100,8 +100,8 @@ ul.horizontal-list {
   max-height: 80vh;      /* ne jamais dépasser 80% de la hauteur de l’écran */
   
   display: flex;
+  flex: 1;
   flex-direction: column;
-  justify-content: center; /* centrer verticalement le contenu */
   overflow-x: hidden;        /* pas de scroll horizontal */
 }
 
@@ -113,8 +113,8 @@ ul.horizontal-list {
     aspect-ratio: auto;
     max-height: none;
     display: flex;
+    flex: 1;
     flex-direction: column;
-    justify-content: center; /* centrer verticalement le contenu */
     overflow-x: hidden;
   }
 }
@@ -125,7 +125,7 @@ ul.horizontal-list {
   display: flex;
   flex-direction: column;
   justify-content: center; /* texte centré SI pas trop long */
-  overflow-y: auto;        /* scroll SI texte trop long */
+  overflow: hidden;        /* scroll SI texte trop long */
   padding-bottom: 2em;     /* espace pour éviter que le texte passe derrière les boutons */
 }
 
