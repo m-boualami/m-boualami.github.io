@@ -112,19 +112,30 @@ ul.horizontal-list {
     height: 50vh;
     aspect-ratio: auto;
     max-height: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centrer verticalement le contenu */
     overflow-x: hidden;
   }
 }
 
+/* contenu des slides */
+.modal-slide {
+  flex: 1;                 /* occupe l’espace vertical disponible */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* texte centré SI pas trop long */
+  overflow-y: auto;        /* scroll SI texte trop long */
+  padding-bottom: 2em;     /* espace pour éviter que le texte passe derrière les boutons */
+}
+
 /* conteneur des boutons — juste la structure */
 .modal-slide-nav {
-  position: absolute;
-  bottom: 1em;          /* place les boutons en bas de la modal */
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: auto;       /* force les boutons à passer APRÈS le contenu */
   display: flex;
   justify-content: center;
   gap: 1em;
+  padding-top: 1em;
 }
 
 /* style appliqué aux boutons */
@@ -141,7 +152,6 @@ ul.horizontal-list {
 .modal-slide-nav button:hover {
   background-color: var(--highlight);
 }
-
 
 /* la première slide */
 .modal-slide .card-inner {
