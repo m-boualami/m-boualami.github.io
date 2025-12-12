@@ -129,6 +129,29 @@ ul.horizontal-list {
   padding-bottom: 2em;     /* espace pour éviter que le texte passe derrière les boutons */
 }
 
+/* la première slide */
+.modal-slide .card-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  text-align: center; /* pour centrer le texte horizontalement */
+  
+  .header { color: var(--links); }
+  .body { font-size: 0.8em; }
+  hr { margin: 0.5em 0; }
+}
+/* fin de la première slide */
+
+/* Taille du texte pour les autres slides */
+.modal-content .modal-slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* texte en haut */
+  overflow-y: auto;            /* scroll si trop long */
+  font-size: 0.8em;
+}
+
+
 /* conteneur des boutons — juste la structure */
 .modal-slide-nav {
   margin-top: auto;       /* force les boutons à passer APRÈS le contenu */
@@ -151,20 +174,6 @@ ul.horizontal-list {
 /* effet hover sur les boutons */
 .modal-slide-nav button:hover {
   background-color: var(--highlight);
-}
-
-/* la première slide */
-.modal-slide .card-inner {
-  text-align: center;
-  .header { color: var(--links); }
-  .body { font-size: 0.8em; }
-  hr { margin: 0.5em 0; }
-}
-/* fin de la première slide*/
-
-/* Taille du texte pour les autres slides */
-.modal-content .modal-slide-content {
-  font-size: 0.8em;
 }
 
 .modal-close {
