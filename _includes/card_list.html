@@ -105,13 +105,21 @@ function openModal(id) {
 
 function closeModal(id) {
   const m = document.getElementById(id);
-  if (m) m.setAttribute('aria-hidden', 'true');
+  if (!m) return;
+
+  m.setAttribute('aria-hidden', 'true');
+  resetSlides(m);
 }
 
 function changeSlide(modalId, direction) {
   const container = document.querySelector('#modal-' + modalId + ' .modal-slides');
+  updateSlide(container, direction);
+}
+
+// --- Fonctions utilitaires ---
+function updateSlide(container, direction = 0) {
   const slides = container.querySelectorAll('.modal-slide');
-  let index = parseInt(container.dataset.activeSlide);
+  let index = parseInt(container.dataset.activeSlide) || 0;
 
   index = (index + direction + slides.length) % slides.length;
   container.dataset.activeSlide = index;
@@ -121,12 +129,19 @@ function changeSlide(modalId, direction) {
   });
 }
 
-// Initialisation des slides au chargement
+function resetSlides(modal) {
+  const container = modal.querySelector('.modal-slides');
+  if (!container) return;
+
+  container.dataset.activeSlide = 0;
+  updateSlide(container, 0);
+}
+
+// --- Initialisation ---
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".modal-slides").forEach(container => {
-    const slides = container.querySelectorAll('.modal-slide');
-    slides.forEach((s, i) => s.style.display = i === 0 ? 'block' : 'none');
     container.dataset.activeSlide = 0;
+    updateSlide(container, 0);
   });
 });
 </script>
