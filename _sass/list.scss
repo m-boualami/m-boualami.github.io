@@ -118,14 +118,14 @@ ul.horizontal-list {
 
 .modal-slides {
   flex: 1;                 // prend toute la hauteur disponible -- point clef pour le centrage
-  display: flex;
 }
 
 .modal-slide {
-  flex: 1;                 /* occupe l’espace vertical disponible */
   display: flex;
   flex-direction: column;
   padding-bottom: 2em;     /* espace pour éviter que le texte passe derrière les boutons */
+  height: 100%;            // IMPORTANT : prend toute la hauteur
+  width: 100%;
 }
 
 /* la première slide */
@@ -136,6 +136,8 @@ ul.horizontal-list {
   justify-content: center;   // 
   align-items: center;       // 
   text-align: center;        // 
+  height: 100%;             // Garantit 100% de hauteur
+  width: 100%;
 
   .header { 
     color: var(--links);
@@ -149,17 +151,24 @@ ul.horizontal-list {
 
   hr { 
     margin: 0.5em 0;
-    width: 100%; 
+    width: 80%; 
   }
 }
 
 /* Taille du texte pour les autres slides */
 .modal-content .modal-slide-content {
-  display: flex;
+  display: block;
+  height: 100%;
+  width: 100%;
   flex-direction: column;
   justify-content: flex-start; /* texte en haut */
   overflow-y: auto;            /* scroll si trop long */
   font-size: 0.8em;
+
+    // Assure que le contenu démarre bien du haut
+  & > *:first-child {
+    margin-top: 0;
+  }
 }
 
 /* conteneur des boutons — juste la structure */
