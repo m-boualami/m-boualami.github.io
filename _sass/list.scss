@@ -97,6 +97,7 @@ ul.horizontal-list {
   /* RATIO CARTE */
   //width: 40vw;           /* largeur proportionnelle à l’écran */
   aspect-ratio: 63 / 88;   /* ratio carte dde jeu */
+  height: 80vh; 
   max-height: 85vh;      /* ne jamais dépasser 80% de la hauteur de l’écran */
   
   display: flex;
@@ -110,6 +111,7 @@ ul.horizontal-list {
     //width: 85vw;
     //height: 50vh;
     aspect-ratio: 63 / 88;
+    height: 80vh; 
     max-height: 85vh;
     max-width: 85vw;
   }
@@ -163,7 +165,7 @@ ul.horizontal-list {
   width: 100%;
   flex-direction: column;
   justify-content: flex-start; /* texte en haut */
-  overflow-y: auto;            /* scroll si trop long */
+  overflow-y: overlay;            /* scroll si trop long */
   font-size: 0.8em;
 
     // Assure que le contenu démarre bien du haut
