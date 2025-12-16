@@ -130,9 +130,9 @@ ul.horizontal-list {
 
 /* la première slide */
 .modal-slide .card-inner {
+  flex: 1;                  // pour prendre toute la hauteur dispo -- et donc, centrer?
   display: flex;
   flex-direction: column;
-  margin: auto 0;            // centrage du conteneur ?
   justify-content: center;   // 
   align-items: center;       // 
   text-align: center;        // 
