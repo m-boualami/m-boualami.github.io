@@ -95,7 +95,7 @@ ul.horizontal-list {
   transition: transform 0.2s ease, opacity 0.2s ease;
 
   /* RATIO CARTE */
-  width: 40vw;           /* largeur proportionnelle à l’écran */
+  width: 30vw;           /* largeur proportionnelle à l’écran */
   aspect-ratio: 63 / 88;   /* ratio carte dde jeu */
   max-height: 80vh;      /* ne jamais dépasser 80% de la hauteur de l’écran */
   
@@ -110,8 +110,7 @@ ul.horizontal-list {
     width: 85vw;
     height: 50vh;
     aspect-ratio: auto;
-    max-height: 80vw;
-    overflow-x: hidden;
+    max-height: 80vh;
   }
 }
 
@@ -127,9 +126,10 @@ ul.horizontal-list {
 .modal-slide .card-inner {
   display: flex;
   flex-direction: column;
-  justify-content: center;   // centrage vertical
-  align-items: center;       // centrage horizontal (du conteneur)
-  text-align: center;        // centrage du texte
+  margin: auto 0;            // centrage du conteneur ?
+  justify-content: center;   // 
+  align-items: center;       // 
+  text-align: center;        // 
 
   .header { 
     color: var(--links);
@@ -141,7 +141,10 @@ ul.horizontal-list {
     display: block;
   }
 
-  hr { margin: 0.5em 0; }
+  hr { 
+    margin: 0.5em 0;
+    width: 100%; 
+  }
 }
 
 /* Taille du texte pour les autres slides */
