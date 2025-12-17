@@ -144,17 +144,57 @@ function changeSlide(modalId, direction) {
 }
 
 // --- Fonctions utilitaires ---
+  
+//function updateSlide(container, direction = 0) {
+  //const slides = container.querySelectorAll('.modal-slide');
+  //let index = parseInt(container.dataset.activeSlide) || 0;
+
+ // index = (index + direction + slides.length) % slides.length;
+  //container.dataset.activeSlide = index;
+
+  //slides.forEach((s, i) => {
+    //s.style.display = i === index ? 'block' : 'none';
+  //});
+//}
+
 function updateSlide(container, direction = 0) {
   const slides = container.querySelectorAll('.modal-slide');
   let index = parseInt(container.dataset.activeSlide) || 0;
-
+  const oldIndex = index;
+  
+  // Nouvel index
   index = (index + direction + slides.length) % slides.length;
   container.dataset.activeSlide = index;
-
-  slides.forEach((s, i) => {
-    s.style.display = i === index ? 'block' : 'none';
+  
+  // Gestion des animations
+  slides.forEach((slide, i) => {
+    if (i === oldIndex) {
+      // Slide qui sort : flip vers la gauche
+      slide.style.transform = 'rotateY(-90deg) scale(0.95)';
+      slide.style.opacity = '0';
+      
+      setTimeout(() => {
+        slide.style.display = 'none';
+      }, 500);
+    }
+    else if (i === index) {
+      // Slide qui entre : apparaît
+      slide.style.display = 'flex';
+      slide.style.transform = 'rotateY(90deg) scale(0.95)';
+      slide.style.opacity = '0';
+      
+      void slide.offsetWidth; // Force reflow
+      
+      slide.style.transform = 'rotateY(0deg) scale(1)';
+      slide.style.opacity = '1';
+    }
+    else {
+      // Autres slides : cachées
+      slide.style.display = 'none';
+    }
   });
 }
+
 
 function resetSlides(modal) {
   const container = modal.querySelector('.modal-slides');
