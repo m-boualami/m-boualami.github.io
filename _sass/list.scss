@@ -70,10 +70,14 @@ ul.horizontal-list {
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
+  display: none; // changé de FLEX à NONE pour le test animation //
   justify-content: center;
   align-items: center;
   z-index: 9999;
+}
+
+.modal[aria-hidden="false"] {  // tout ajouté pour le test animation //
+  display: flex; /* ← AJOUTÉ */
 }
 
 .modal-backdrop {
@@ -83,6 +87,14 @@ ul.horizontal-list {
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,0.5);
+
+  /* AJOUTÉ pour le test animation */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.modal[aria-hidden="false"] .modal-backdrop {
+  opacity: 1; /* ← AJOUTÉ  pour le test animation*/
 }
 
 .modal-content {
@@ -92,10 +104,10 @@ ul.horizontal-list {
   border: 1px var(--text) solid;
   padding: 1em;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition: transform 0.3s cubic-bezier(0.2, 0.9, 0.3, 1.1),  // transition modifié pour le test animation //
+    opacity 0.2s ease; 
 
   /* RATIO CARTE */
-  //width: 40vw;           /* largeur proportionnelle à l’écran */
   aspect-ratio: 63 / 88;   /* ratio carte dde jeu */
   height: 80vh; 
   max-height: 85vh;      /* ne jamais dépasser 80% de la hauteur de l’écran */
@@ -103,6 +115,15 @@ ul.horizontal-list {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;        /* pas de scroll horizontal */
+
+  /* AJOUTÉ pour le test animation */
+  transform: scale(0.95);
+  opacity: 0;
+}
+
+.modal[aria-hidden="false"] .modal-content {
+  transform: scale(1); /* ← AJOUTÉ pour le test animation */
+  opacity: 1; /* ← AJOUTÉ pour le test animation */
 }
 
 /* --- Mobile --- */
@@ -206,10 +227,6 @@ ul.horizontal-list {
   border: none;
   font-size: 1.5em;
   cursor: pointer;
-}
-
-.modal[aria-hidden="true"] {
-  display: none;
 }
 
 /* -------------------- Tabs -------------------- */
