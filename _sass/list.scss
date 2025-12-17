@@ -88,7 +88,7 @@ ul.horizontal-list {
   height: 100%;
   
   /* Mélange 70% de --highlight avec 30% de transparent */
-  background-color: color-mix(in srgb, var(--highlight) 70%, transparent);
+  background-color: color-mix(in srgb, var(--highlight) 50%, transparent);
   
   /* AJOUTÉ pour le test animation */
   opacity: 0;
