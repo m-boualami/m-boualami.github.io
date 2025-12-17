@@ -98,17 +98,44 @@
 {% endfor %}
 
 <script>
+//function openModal(id) {
+  //const m = document.getElementById(id);
+  //if (m) m.setAttribute('aria-hidden', 'false');
+//}
+
+//function closeModal(id) {
+  //const m = document.getElementById(id);
+  //if (!m) return;
+
+  //m.setAttribute('aria-hidden', 'true');
+  //resetSlides(m);
+//}
+
 function openModal(id) {
   const m = document.getElementById(id);
-  if (m) m.setAttribute('aria-hidden', 'false');
+  if (!m) return;
+  
+  // 1. D'abord afficher (sans animation)
+  m.style.display = 'flex';
+  
+  // 2. Attendre un tick pour déclencher l'animation
+  setTimeout(() => {
+    m.setAttribute('aria-hidden', 'false');
+  }, 10);
 }
 
 function closeModal(id) {
   const m = document.getElementById(id);
   if (!m) return;
-
+  
+  // 1. Déclencher l'animation de fermeture
   m.setAttribute('aria-hidden', 'true');
-  resetSlides(m);
+  
+  // 2. Attendre la fin de l'animation avant de cacher
+  setTimeout(() => {
+    m.style.display = 'none';
+    resetSlides(m);
+  }, 300); // 300ms = durée de ta transition CSS
 }
 
 function changeSlide(modalId, direction) {
