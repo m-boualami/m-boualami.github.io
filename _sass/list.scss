@@ -144,6 +144,8 @@ ul.horizontal-list {
 
 .modal-slides {
   flex: 1;                 // prend toute la hauteur disponible -- point clef pour le centrage
+  // ANIMATION CHANGEMENT DE SLIDE
+  perspective: 1000px; 
 }
 
 .modal-slide {
@@ -152,6 +154,12 @@ ul.horizontal-list {
   padding-bottom: 2em;     /* espace pour éviter que le texte passe derrière les boutons */
   height: 100%;            // IMPORTANT : prend toute la hauteur
   width: 100%;
+
+  // ANIMATION CHANGEMENT DE SLIDE
+  transition: transform 0.5s cubic-bezier(0.2, 0.9, 0.3, 1.1), 
+              opacity 0.3s ease;
+  transform-origin: center;
+  backface-visibility: hidden; /* Optionnel : plus fluide */
 }
 
 /* la première slide */
