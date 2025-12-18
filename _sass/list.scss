@@ -86,9 +86,7 @@ ul.horizontal-list {
   left: 0;
   width: 100%;
   height: 100%;
-  
-  /* Mélange 70% de --highlight avec 30% de transparent */
-  background-color: color-mix(in srgb, var(--highlight) 50%, transparent);
+  background-color: rgba(0,0,0,0.5);
   
   /* AJOUTÉ pour le test animation */
   opacity: 0;
@@ -105,7 +103,10 @@ ul.horizontal-list {
   border-radius: 0.5em;
   border: 1px var(--text) solid;
   padding: 1em;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  //box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.25), 
+    0 0 30px color-mix(in srgb, var(--highlight) 15%, transparent);
   transition: transform 0.3s cubic-bezier(0.2, 0.9, 0.3, 1.1),  // transition modifié pour le test animation //
     opacity 0.2s ease; 
 
