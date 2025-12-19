@@ -53,6 +53,7 @@ ul.horizontal-list {
     0 0 10px color-mix(in srgb, var(--highlight) 35%, transparent),
     0 0 20px color-mix(in srgb, var(--highlight) 25%, transparent),
     0 0 40px color-mix(in srgb, var(--highlight) 15%, transparent);
+  border: 1px var(--highlight) solid;
 }
 
 /* Responsive cards - one column layout on small screens */
