@@ -149,6 +149,15 @@ function updateSlide(container, direction = 0) {
   slides.forEach((s, i) => {
     s.style.display = i === index ? 'block' : 'none';
   });
+
+    // --- Effet halo flash ---
+  const modalContent = container.closest('.modal-content');
+  if (modalContent) {
+    modalContent.style.setProperty('--mask-opacity', '1'); // masque le halo
+    setTimeout(() => {
+      modalContent.style.setProperty('--mask-opacity', '0'); // halo réapparaît
+    }, 100); // durée très courte
+  }
 }
 
 function resetSlides(modal) {
