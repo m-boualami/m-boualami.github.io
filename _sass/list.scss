@@ -113,7 +113,7 @@ ul.horizontal-list {
   background-color: var(--bg-secondary);
   border-radius: 0.5em;
   border: 1px var(--highlight) solid;
-  padding: 3em;  // marges ?
+  padding: 2em;  // marges ?
   /* effet néon avec couleur dynamique */
   box-shadow:
     0 0 8px color-mix(in srgb, var(--highlight) 40%, transparent),
