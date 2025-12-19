@@ -113,7 +113,7 @@ ul.horizontal-list {
   background-color: var(--bg-secondary);
   border-radius: 0.5em;
   border: 1px var(--highlight) solid;
-  padding: 2em;  // marges ?
+  padding: 2.5em;  // marges ?
   /* effet néon avec couleur dynamique */
   box-shadow:
     0 0 8px color-mix(in srgb, var(--highlight) 40%, transparent),
@@ -135,6 +135,19 @@ ul.horizontal-list {
   /* AJOUTÉ pour le test animation */
   transform: scale(0.95);
   opacity: 0;
+
+    /* --- Pseudo-élément ::before pour masquer le halo --- */
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0; /* couvre tout le conteneur */
+    border-radius: inherit;
+    background: var(--bg-secondary); /* même couleur que le fond pour masquer le halo */
+    pointer-events: none; /* pas d’interaction */
+    opacity: var(--mask-opacity, 0); /* invisible par défaut */
+    transition: opacity 0.05s ease; /* très rapide pour le flash */
+    z-index: 1; /* devant le halo, derrière le contenu */
+  }
 }
 
 .modal[aria-hidden="false"] .modal-content {
