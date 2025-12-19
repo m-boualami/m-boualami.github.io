@@ -13,14 +13,24 @@ project_entries:
     slug: "death-of-distance"
     desc: "shifting spatial logics of innovation in a digitised world?"
     highlight: "Academic"
-    slide_1_head: "Innovation as the geography of centers"
+    slide_1_head: "Context"
     slide_1_body: |
-      Musical innovation is less an aesthetic shift than a capacity for risk-taking, conditioned by financial investment. These resources tend to concentrate in a handful of geographical hubs, producing a landscape of centres and peripheries, and a dependence among artists on proximity to these cores.
-    slide_2_head: "Streaming promised a spatial revolution"
+      Environment: RECORDS project, in partnership with the french music streaming platform Deezer
+
+      Data: Listening histories of 50 000 Deezer users
+
+      Methods: Netwrok analysis, spatial analysis, cartography
+
+      Deliverable: <<paper>>, <<conference>>, <<panel>>
+
+    slide_2_head: "Innovation as the geography of centers"
     slide_2_body: |
-      Digitisation and the rise of platforms have devalued music distribution (near‑zero cost) and desacralised it (weakening traditional gatekeepers). Platformisation was meant to democratise success, heralding a « death of distance ». Ten years on, what do we actually observe?
-    slide_3_head: "A dual movement: de-centralisation and re-centralisation"
+      Musical innovation is less an aesthetic shift than a capacity for risk-taking, conditioned by financial investment. These resources tend to concentrate in a handful of geographical hubs, producing a landscape of centres and peripheries, and a dependence among artists on proximity to these cores.
+    slide_3_head: "Streaming promised a spatial revolution"
     slide_3_body: |
+      Digitisation and the rise of platforms have devalued music distribution (near‑zero cost) and desacralised it (weakening traditional gatekeepers). Platformisation was meant to democratise success, heralding a « death of distance ». Ten years on, what do we actually observe?
+    slide_4_head: "A dual movement: de-centralisation and re-centralisation"
+    slide_4_body: |
       Analysis of streaming data reveals a dual transformation: innovation has decentralised geographically, with more breakout artists anchored outside traditional centers, yet their emergence remains socially dependent on connection to those same centres. Simultaneously, core hubs now produce innovation at an unprecedented scale. The losers? Intermediate hubs, generating less innovation and, when they do, struggle to translate it into lasting success.
 
       *Research conducted using Deezer data, combining geolocation of emerging artists with analysis of their collaboration networks.*
