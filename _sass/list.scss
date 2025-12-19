@@ -191,7 +191,16 @@ ul.horizontal-list {
   flex-direction: column;
   justify-content: flex-start; /* texte en haut */
   overflow-y: overlay;            /* scroll si trop long */
-  font-size: 0.8em;
+  
+  .head { 
+    color: var(--links);
+    display: block;
+  }
+  
+  .body { 
+    font-size: 0.8em; 
+    display: block;
+  }
 
     // Assure que le contenu démarre bien du haut
   & > *:first-child {
