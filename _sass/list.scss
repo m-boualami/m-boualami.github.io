@@ -113,7 +113,7 @@ ul.horizontal-list {
   background-color: var(--bg-secondary);
   border-radius: 0.5em;
   border: 1px var(--highlight) solid;
-  padding: 1em;
+  padding: 3em;  // marges ?
   /* effet néon avec couleur dynamique */
   box-shadow:
     0 0 8px color-mix(in srgb, var(--highlight) 40%, transparent),
@@ -163,7 +163,7 @@ ul.horizontal-list {
 .modal-slide {
   display: flex;
   flex-direction: column;
-  padding-bottom: 2em;     /* espace pour éviter que le texte passe derrière les boutons */
+  padding-bottom: 1em;     /* espace pour éviter que le texte passe derrière les boutons */
   height: 100%;            // IMPORTANT : prend toute la hauteur
   width: 100%;
 }
