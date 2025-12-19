@@ -45,9 +45,14 @@ ul.horizontal-list {
 
 /* Hover effect similaire aux tab-button */
 .card:hover {
-  background-color: var(--highlight);
   transform: translateY(-1px);
   cursor: pointer;
+    /* effet néon sur le contour au survol */
+  box-shadow:
+    0 0 4px color-mix(in srgb, var(--highlight) 40%, transparent),
+    0 0 10px color-mix(in srgb, var(--highlight) 35%, transparent),
+    0 0 20px color-mix(in srgb, var(--highlight) 25%, transparent),
+    0 0 40px color-mix(in srgb, var(--highlight) 15%, transparent);
 }
 
 /* Responsive cards - one column layout on small screens */
@@ -101,7 +106,7 @@ ul.horizontal-list {
   position: relative;
   background-color: var(--bg-secondary);
   border-radius: 0.5em;
-  border: 1px var(--text) solid;
+  border: 1px var(--highlight) solid;
   padding: 1em;
   /* effet néon avec couleur dynamique */
   box-shadow:
