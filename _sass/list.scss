@@ -219,17 +219,19 @@ ul.horizontal-list {
 
 /* style appliqué aux boutons */
 .modal-slide-nav button {
-  border: 1px var(--text) solid;
+  border: none; /* plus de bordure */
   background-color: var(--bg-secondary);
+  color: var(--text); /* couleur du symbole */
   cursor: pointer;
   padding: 0.5em 1em;
   border-radius: 0.3em;
-  font-size: 0.8rem;
-  transition: background-color 0.2s ease;
+  font-size: 1.5rem; /* un peu plus visible pour les flèches */
+  transition: color 0.2s ease, background-color 0.2s ease;
 }
 /* effet hover sur les boutons */
 .modal-slide-nav button:hover {
-  background-color: var(--highlight);
+  color: var(--highlight); /* change la couleur du symbole */
+  background-color: transparent; /* garde le fond inchangé ou transparent */
 }
 
 .modal-close {
