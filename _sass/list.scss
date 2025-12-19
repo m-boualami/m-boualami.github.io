@@ -125,8 +125,8 @@ ul.horizontal-list {
 
   /* RATIO CARTE */
   aspect-ratio: 63 / 88;   /* ratio carte dde jeu */
-  height: 80vh; 
-  max-height: 85vh;      /* ne jamais dépasser 80% de la hauteur de l’écran */
+  height: 75vh; 
+  max-height: 80vh;      /* ne jamais dépasser 80% de la hauteur de l’écran */
   
   display: flex;
   flex-direction: column;
@@ -150,7 +150,7 @@ ul.horizontal-list {
     aspect-ratio: 63 / 88;
     height: 70vh; 
     max-height: 85vh;
-    max-width: 85vw;
+    max-width: 80vw;
   }
 }
 
@@ -226,7 +226,7 @@ ul.horizontal-list {
   display: flex;
   justify-content: center;
   gap: 1em;
-  padding-top: 1em;
+  padding-top: 0.1em;
 }
 
 /* style appliqué aux boutons */
@@ -235,8 +235,8 @@ ul.horizontal-list {
   background-color: var(--bg-secondary);
   color: var(--text); /* couleur du symbole */
   cursor: pointer;
-  padding: 0.5em 1em;
-  border-radius: 0.3em;
+  padding: 0.1em 0.1em;
+  border-radius: 0.1em;
   font-size: 1.5rem; /* un peu plus visible pour les flèches */
   transition: color 0.2s ease, background-color 0.2s ease;
 }
